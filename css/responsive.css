@@ -1,0 +1,4023 @@
+@media screen and (max-width : 1440px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body{
+        font-size: 10px;
+        background-color: #006DAE;
+        /* overflow-x: hidden; */
+    }
+    
+    /* header */
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        top: 1rem; left: 1rem;
+        position: fixed;
+        z-index: 999;
+    }
+    .round {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        z-index: 9;
+        animation: turn linear infinite 3s both;
+        background: url('../images/Round.png')no-repeat center center/contain;
+        cursor: pointer;
+    }
+    @keyframes turn {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+    .box {
+        width: 3rem;
+        height: 2.3rem;
+        line-height: 2.5rem;
+        background-color: #000;
+        position: absolute;
+        top: 1.7rem; left: 2rem;
+        transition: all .3s;
+        border-radius: 0.5rem;
+    }
+    .box.on{
+        width: 33rem;
+        height: 2.3rem;  
+    }
+    .box ul {
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        margin-left: 2.3rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .25s;
+    }
+    .box.on ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .box.on ul li{
+        display: block;
+    }
+    .box ul li a {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .box ul li a:hover {
+        color: #006DAE;
+    }
+    .box ul li a.on {
+        color: #006DAE;
+    }
+    
+    /* popup */
+    
+    .popup {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        opacity: 1;
+        transition: all 1s;
+    }
+    .popup.remove{
+      opacity: 0;
+    }
+    /* main */
+    
+    main{
+        overflow: hidden;
+    }
+    
+    /* section1 */
+    
+    .section1 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section1 .film {
+        position: absolute;
+        top: 0; right: -2%;
+        width: 45%;
+        height: 45%;
+    }
+    .section1 .film img {
+        width: 100%;
+        height: 100%;
+    }
+    .section1 .responsive {
+        position: absolute;
+        top: 2%; left: 50%;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .section1 .responsive img {
+        width: 2.5rem;
+        height: 2.5rem;
+        z-index: 9;
+    }
+    .section1 .Frame {
+        position: absolute;
+        top: 10rem; left: 7rem;
+        width: 469px;
+        height: 577.5px;
+    }
+    .section1 .s1 {
+        position: absolute;
+        top: 15rem; left: 12rem;
+        width: 83.5px;
+        height: 83.5px;
+    }
+    .section1 .s2 {
+        position: absolute;
+        top: 12.5rem; left: 22.5rem;
+        width: 103px;
+        height: 103px;
+    }
+    .abc {
+        margin-left: 37rem;
+        transform: translateY(22rem);
+    }
+    .abc > img:nth-child(1) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(2) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(3) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(4) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(5) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(6) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(7) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(8) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(9) {
+        opacity: 0;
+    
+    }
+    .name {
+        margin-left: 41rem;
+        transform: translateY(22rem);
+    }
+    .name > img:nth-child(1) {
+        opacity: 0;
+    }
+    .name > img:nth-child(2) {
+        opacity: 0;
+    }
+    .name > img:nth-child(3) {
+        opacity: 0;
+    }
+    .name > img:nth-child(4) {
+        opacity: 0;
+    }
+    .name > img:nth-child(5) {
+        opacity: 0;
+    }
+    .name > img:nth-child(6) {
+        opacity: 0;
+    }
+    .name > img:nth-child(7) {
+        opacity: 0;
+    }
+    .name > img:nth-child(8) {
+        opacity: 0;
+    }
+    
+    /* section2 */
+    
+    .section2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .section2 .title {
+        text-align: center;
+        width: 100%;
+    }
+    .section2 .card {
+        display: flex;
+        flex-direction: column;
+        /* gap: 1rem; */
+    }
+    .section2 .card .top {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .top ul {
+        display: flex;
+        gap: 1rem;
+        /* margin-left: 7rem; */
+        /* margin-top: 6.3rem; */
+    }
+    .section2 .card .top ul li a {
+        display: block;
+    }
+    .section2 .card .top ul li a img {
+        border-radius: 1rem;
+        transition: all .3s;
+        width: 70%;
+        height: 70%;
+    }
+    .section2 .card .top ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .top ul li:hover img {
+        transform: scale(0.95);
+        filter: brightness(0.3);
+    }
+    .section2 .card .top ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .top ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translateY(-10rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .top ul li .filter-box img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .top ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.7rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .top ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section2 .card .bottom {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .bottom ul {
+        display: flex;
+        gap: 1rem;
+        /* margin-left: 7rem; */
+        /* margin-top: 6.3rem; */
+    }
+    .section2 .card .bottom ul li a {
+        display: block;
+    }
+    .section2 .card .bottom ul li a img {
+        border-radius: 2rem;
+        transition: all .3s;
+        width: 70%;
+        height: 70%;
+    }
+    .section2 .card .bottom ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .bottom ul li:hover img {
+        transform: scale(0.95);
+        filter: brightness(0.3);
+    }
+    .section2 .card .bottom ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .bottom ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translateY(-10rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .bottom ul li .filter-box img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .bottom ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.7rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .bottom ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    
+    /* section3 */
+    
+    .section3 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section3 .title2 {
+        text-align: center;
+        width: 100%;
+    }
+    .section3 .clip {
+        width: 100%;
+        height: 10rem;
+        margin-top: 10rem;
+        background: url('../images/roop.png') no-repeat center/contain;
+    }
+    .section3 .clip .photo1 {
+        position: absolute;
+        top: 45%; left: 3%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo1 img {
+        transition: all .5s;
+        width: 70%;
+        height: 70%;
+    }
+    .section3 .clip .photo1:hover img {
+        transform: rotate(33deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo1 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-3.8rem, -15rem);
+        display: none;
+        transition: all .5s;
+        width: 298px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo1 .filter-box2 img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo1:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo1 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 a {
+        font-family: 'moon';
+        padding: 1rem 1rem;
+        color: #000;
+        font-size: 1rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo1 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo2 {
+        position: absolute;
+        top: 49%; left: 30%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo2 img {
+        transition: all .5s;
+        width: 70%;
+        height: 70%;
+    }
+    .section3 .clip .photo2:hover img {
+        transform: rotate(-17deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo2 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-3.5rem, -14rem);
+        display: none;
+        transition: all .5s;
+        width: 259px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo2 .filter-box2 img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo2:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo2 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 a {
+        font-family: 'moon';
+        padding: 1rem 1rem;
+        color: #000;
+        font-size: 1rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo2 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo3 {
+        position: absolute;
+        top: 51%; right: 25%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo3 img {
+        transition: all .5s;
+        width: 70%;
+        height: 70%;
+    }
+    .section3 .clip .photo3:hover img {
+        transform: rotate(2deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo3 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-2.6rem, -13rem);
+        display: none;
+        transition: all .5s;
+        width: 284px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo3 .filter-box2 img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo3:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo3 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 a {
+        font-family: 'moon';
+        padding: 1rem 1rem;
+        color: #000;
+        font-size: 1rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo3 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo4 {
+        position: absolute;
+        top: 48%; right: -5%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo4 img {
+        transition: all .5s;
+        width: 70%;
+        height: 70%;
+    }
+    .section3 .clip .photo4:hover img {
+        transform: rotate(-31deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo4 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-3.8rem, -14.5rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo4 .filter-box2 img {
+        width: 15%;
+        height: 15%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo4:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo4 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 a {
+        font-family: 'moon';
+        padding: 1rem 1rem;
+        color: #000;
+        font-size: 1rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo4 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .Bclip {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section3 .Bclip .clip1 {
+        position: absolute;
+        top: 33%; left: 8%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip2 {
+        position: absolute;
+        top: 40%; left: 32%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip3 {
+        position: absolute;
+        top: 37%; left: 55%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip4 {
+        position: absolute;
+        top: 37%;  left: 78%;
+        z-index: 3;
+    }
+    .bs {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 500%;
+        height: 100%;
+    }
+    /* section4 */
+
+    .section4 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section4 .title3 {
+        text-align: center;
+        margin-left: 6rem;
+        width: 100%;
+    }
+    .longfilm {
+        width: 90%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        /* margin-left: 10rem; */
+    }
+    .longfilm .left .tabmenu .inner {
+        width: 261px;
+        height: 640px;    
+        background: url('../images/longfilm2.png') no-repeat center center/contain;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        /* gap: 1rem; */
+        transform: translate(0.6rem, 6.5rem);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple {
+        background: url('../images/applelogo.png') no-repeat 0 0/contain;
+        filter: invert(30%);
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames {
+        background: url('../images/riotgameslogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2 {
+        background: url('../images/comingsoon.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2.on {
+        filter: invert(100%);
+    }
+    .longfilm > .right > .tabitem {
+        width: 50rem;
+        height: 30rem;    
+        background-color: #000;
+        border-radius: 2rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button {
+        margin-left: 11.5rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a {
+        width: 13rem;
+        height: 5rem;
+        font-size: 1.5rem;
+        font-family: 'moon';
+        font-weight: bold;
+        color: #fff;
+        border-radius: 5rem;
+        border: none;
+        background-color: black;
+        cursor: pointer;
+        margin: 1rem;
+        transition: all .5s;
+        padding: 1rem 2rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a:hover {
+        color: #006DAE;
+        background-color: #fff;
+        border: none;
+    }
+    .tabnav li a {
+        display: block;
+    }
+    .longfilm > .right {
+        position: absolute;
+        top: 0; right: 15rem;
+    }
+    .longfilm > .right > .tabitem > .img-wrap {
+        position: relative;
+    }
+    .i1 {
+        width: 50rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/apple.jpg') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 11s;
+        margin-bottom: 2rem;
+    }
+    .i1:hover {
+        background-position: 100% 100%;
+    }
+    .filter3 {
+        position: absolute;
+        top: 1rem; left: -11.2rem;
+    }
+    .filter3 img {
+        width: 7%;
+        height: 7%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+    }
+    .i2 {
+        width: 50rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/nintendosub.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i2:hover {
+        background-position: 100% 100%;
+    }
+    .i3 {
+        width: 50rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/ikea.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 8s;
+        margin-bottom: 2rem;
+    }
+    .i3:hover {
+        background-position: 100% 100%;
+    }
+    .i3 .filter3 {
+        position: absolute;
+        top: 1rem; left: -11rem;
+        /* margin-left: -1rem; */
+    }
+    .i3 .filter3 img {
+        width: 4.5%;
+        height: 4.5%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .i3 .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+        margin-left: 1rem;
+    }
+    .i4 {
+        width: 50rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i4:hover {
+        background-position: 100% 100%;
+    }
+    .i5 {
+        width: 50rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i5:hover {
+        background-position: 100% 100%;
+    }
+    /* section5 */
+
+    .section5 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section5 .title4 {
+        text-align: center;
+    }
+    .section5 .bigbox {
+        width: 100%;
+        height: 100%;
+        transform: translateX(10rem);
+    }
+    .section5 .innerbox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .section5 .smallbox {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-top: 5rem;
+    }
+    .section5 .mainbox {
+        width: 9rem;
+        height: 14rem;      
+        background: url('../images/shortfilm.png')no-repeat center center/contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .section5 .smallbox:nth-child(1) .mainbox .logo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+        border-radius: 1rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(1rem);
+    }
+    .section5 .smallbox:nth-child(2) .mainbox .logo {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+        border-radius: 1rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(1rem);
+    }
+    .section5 .smallbox:nth-child(3) .mainbox .logo {
+        background: url('../images/subwaylogo.png') no-repeat 0 0/contain;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+        border-radius: 1rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(1rem);
+    }
+    .section5 .smallbox:nth-child(4) .mainbox .logo {
+        background: url('../images/burgerkinglogo.png') no-repeat 0 0/contain;
+        width: 6rem;
+        height: 6rem;
+        cursor: pointer;
+        border-radius: 1rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(1rem);
+    }
+    .section5 .smallbox.on .mainbox .logo {
+        filter: grayscale(0);
+    }
+    .section5 .subbox {
+        width: 10rem;
+        height: 11rem;
+        background: url('../images/lfil.png')no-repeat 100% center/cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(1.1rem) translateX(-6rem);
+        transition: width 0.7s ease;
+    }
+    .section5 .smallbox.on .subbox {
+        width: 24.5rem;
+    }
+    .section5 .subbox h1 {
+        font-size: 1.5rem;
+        font-family: 'moon';
+        font-weight: 800;
+        color: #fff;
+        margin-top: 1.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox h1 {
+        opacity: 1;
+    }
+    .section5 .subbox p {
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+        color: #fff;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox p {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 {
+        display: flex;
+        justify-content: center;  /* 수평 중앙 정렬 */
+        align-items: center;      /* 수직 중앙 정렬 */
+        gap: 0.2rem;                /* 이미지 간격 조정 (필요시) */
+        width: 100%;              /* 부모 요소의 전체 너비를 차지하도록 */
+        margin-top: 0.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .filter4 {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 img {
+        width: 5.5%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    .section5 .subbox .button2 a {
+        padding: 0.4rem 0.7rem;
+        font-size: 1rem;
+        font-family: 'moon';
+        font-weight: bold;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        cursor: pointer;
+        border-radius: 15rem;
+        transition: background-color 0.3s ease;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .button2 a {
+        opacity: 1;
+    }
+    .section5 .subbox .button2 a:hover {
+        background-color: #006DAE;
+        color: #fff;
+    }
+    /* section6 */
+
+    .section6 {
+        width: 20%;
+        height: 100vh;
+        position: relative;
+    }
+    .section6 .title5 {
+        text-align: center;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 1000px !important;
+        height: 600px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        background-color: #000;
+        background: url('../images/nofilm.png') no-repeat 0 0 /contain;
+    }
+
+    /* sound */
+
+    .section6 .sound {
+        position: absolute;
+        top: 5rem;
+        right: 1.5rem;
+        z-index: 9;
+        width: 50px;
+        height: 50px;
+        background: url('../images/soundoff.png') no-repeat center/contain;
+        cursor: pointer;
+    }
+    .section6 .sound.on {
+        background: url('../images/soundon.png') no-repeat center/contain;
+    }
+
+    .swiper-slide video {
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        /* border-radius: 2rem !important; */
+        filter: brightness(1);
+        transition: all .5s;
+    }
+    .swiper-slide:hover video {
+        filter: brightness(0.3);
+    }
+    .swiper-slide:hover .filter-box3 {
+        opacity: 1;
+    }
+    .section6 .filter-box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* transform: translateY(-14rem); */
+        transition: all .5s;
+        margin: 0 auto;
+        z-index: 99;
+        opacity: 0;
+    }
+    .section6 .filter-box3 img {
+        width: 6%;
+        height: 6%;
+        margin-top: 1rem;
+        border-radius: 15rem;
+    }
+    .section6 .filter-box3 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section6 .filter-box3 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        transform: translateY(-1rem);
+    }
+    .swiper-pagination-bullet {
+        width: 40px !important;
+        height: 48px !important;
+        background: url('../images/noactive.png') no-repeat center center/contain;
+        background-size: auto;
+        border-radius: 0;
+    }
+    .swiper-pagination-bullet-active {
+        width: 56px !important;
+        height: 66px !important;
+        background: url('../images/active.png') no-repeat center center/contain;
+        background-size: auto;
+    }
+    /* section7 */
+
+    .section7 {
+        width: 100vw;
+        height: 420vh;
+        background: linear-gradient(#006DAE, #000 10%);
+    }
+    .section7 .title6 {
+        text-align: center;
+        padding-top: 40rem;
+    }
+    .footer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .footer .fleft {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        gap: 3rem;
+        padding-left: 1rem;
+    }
+    .footer .fleft .lbox {
+        width: 40px;
+        height: 25px;
+        border-radius: 0.3rem;
+        background-color: #fff;
+    }
+    .footer .fright {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        right: 0;
+        gap: 3rem;
+        padding-right: 1rem;
+    }
+    .footer .fright .rbox {
+        width: 40px;
+        height: 25px;
+        border-radius: 0.3rem;
+        background-color: #fff;
+    }
+    .introduce {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    .introduce h1 {
+        color: #006DAE;
+        font-size: 2rem;
+        font-family: 'moon';
+        font-weight: 500;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .introduce .ending {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .introduce .ending p {
+        transition: transform 0.5s ease-out;
+        position: relative; /* 자식 가상 요소가 절대 위치를 잡을 수 있도록 */
+        overflow: hidden; /* 가상 요소가 p 태그 밖으로 넘어가지 않게 설정 */
+    }
+    .introduce .ending p::after {
+        content: ''; /* 가상 요소에 내용을 비워두고 배경색만 설정 */
+        position: absolute; /* 절대 위치로 설정 */
+        top: 0; /* 상단부터 시작 */
+        left: 0; /* 왼쪽부터 시작 */
+        width: 100%; /* 가로 길이를 100%로 설정 */
+        height: 100%; /* 세로 길이를 100%로 설정 */
+        background-color: #006DAE; /* 배경 색 설정 */
+        transform: scaleY(0); /* 처음에는 세로 크기를 0으로 설정 */
+        transform-origin: bottom; /* 변형의 기준을 아래쪽으로 설정 */
+        transition: transform 0.5s ease-out; /* 애니메이션 설정 */
+        z-index: -1; /* 글자 위로 가리지 않게 배경을 뒤로 보냄 */
+    }
+    .introduce .ending:hover p::after {
+        transform: scaleY(1); /* 호버 시 세로 크기를 1로 설정하여 차오르는 효과 */
+    }
+    .introduce .ending:hover .sf {
+        color: #fff;
+        z-index: 9;
+    }
+    .introduce .ending:hover .ff {
+        color: #000;
+        z-index: 9;
+    }
+    .introduce p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+    .introduce .sf {
+        color: #6F6F6F;
+        font-size: 1.5rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: right;
+        padding-right: 2rem;
+    }
+    .introduce .ff {
+        color: #fff;
+        font-size: 1.5rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: left;
+        padding-left: 2rem;
+    }
+    .introduce .myface img {
+        border-radius: 1rem;
+        margin: 0 auto;
+    }
+    .introduce .myskills {
+        margin: 0 auto;
+    }
+    .introduce .myskills img {
+        width: 3%;
+        height: 3%;
+        border-radius: 15rem;
+    }
+    .title6 h2 {
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: center;
+        /* padding-top: 30rem; */
+        margin: 0 auto;
+    }
+    .title6 > img {
+        width: 100%;
+        margin: 0 auto;
+        /* padding-top: 15rem; */
+        opacity: 0.5;
+    }
+    
+}
+@media screen and (max-width : 1024px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    
+    ul {
+        list-style: none;
+    }
+    
+    a {
+        text-decoration: none;
+        color: inherit;
+    }
+    body{
+        font-size: 10px;
+        background-color: #006DAE;
+        /* overflow-x: hidden; */
+    }
+    
+    /* header */
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        top: 1rem; left: 1rem;
+        position: fixed;
+        z-index: 999;
+    }
+    .round {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        z-index: 9;
+        animation: turn linear infinite 3s both;
+        background: url('../images/Round.png')no-repeat center center/contain;
+        cursor: pointer;
+    }
+    @keyframes turn {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+    .box {
+        width: 3rem;
+        height: 2.3rem;
+        line-height: 2.5rem;
+        background-color: #000;
+        position: absolute;
+        top: 1.7rem; left: 2rem;
+        transition: all .3s;
+        border-radius: 0.5rem;
+    }
+    .box.on{
+        width: 33rem;
+        height: 2.3rem;  
+    }
+    .box ul {
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        margin-left: 2.3rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .25s;
+    }
+    .box.on ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .box.on ul li{
+        display: block;
+    }
+    .box ul li a {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .box ul li a:hover {
+        color: #006DAE;
+    }
+    .box ul li a.on {
+        color: #006DAE;
+    }
+    
+    /* popup */
+    
+    .popup {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        opacity: 1;
+        transition: all 1s;
+    }
+    .popup.remove{
+      opacity: 0;
+    }
+    /* main */
+    
+    main{
+        overflow: hidden;
+    }
+    
+    /* section1 */
+    
+    .section1 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section1 .film {
+        position: absolute;
+        top: 0; right: -2%;
+        width: 50%;
+        height: 35%;        
+    }
+    .section1 .film img {
+        width: 100%;
+        height: 100%;
+    }
+    .section1 .responsive {
+        position: absolute;
+        top: 2%; left: 50%;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .section1 .responsive img {
+        width: 2rem;
+        height: 2rem;
+        z-index: 9;
+    }
+    .section1 .Frame {
+        position: absolute;
+        top: 20rem; left: 0.5rem;
+        width: 380px;
+        height: 460px;
+    }
+    .section1 .s1 {
+        position: absolute;
+        top: 24rem; left: 4.5rem;
+        width: 67.5px;
+        height: 67.5px;        
+    }
+    .section1 .s2 {
+        position: absolute;
+        top: 22rem; left: 13rem;
+        width: 82px;
+        height: 82px;    
+    }
+    .abc {
+        margin-left: 24rem;
+        transform: translateY(28rem);
+    }
+    .abc > img:nth-child(1) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(2) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(3) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(4) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(5) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(6) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(7) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(8) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(9) {
+        opacity: 0;
+    
+    }
+    .name {
+        margin-left: 24rem;
+        transform: translateY(28rem);
+    }
+    .name > img:nth-child(1) {
+        opacity: 0;
+    }
+    .name > img:nth-child(2) {
+        opacity: 0;
+    }
+    .name > img:nth-child(3) {
+        opacity: 0;
+    }
+    .name > img:nth-child(4) {
+        opacity: 0;
+    }
+    .name > img:nth-child(5) {
+        opacity: 0;
+    }
+    .name > img:nth-child(6) {
+        opacity: 0;
+    }
+    .name > img:nth-child(7) {
+        opacity: 0;
+    }
+    .name > img:nth-child(8) {
+        opacity: 0;
+    }
+    
+    /* section2 */
+    
+    .section2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .section2 .title {
+        text-align: center;
+        width: 100%;
+    }
+    .section2 .card {
+        display: flex;
+        flex-direction: column;
+        /* gap: 1rem; */
+    }
+    .section2 .card .top {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .top ul {
+        display: flex;
+        gap: 1rem;
+        margin-left: 3.5rem;
+        margin-top: 4.5rem;
+    }
+    .section2 .card .top ul li a {
+        display: block;
+    }
+    .section2 .card .top ul li a img {
+        border-radius: 1rem;
+        transition: all .3s;
+        width: 75%;
+        height: 75%;
+    }
+    .section2 .card .top ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .top ul li:hover img {
+        transform: scale(0.95);
+        filter: brightness(0.3);
+    }
+    .section2 .card .top ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .top ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-1.5rem, -8.5rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .top ul li .filter-box img {
+        width: 13%;
+        height: 13%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .top ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .top ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section2 .card .bottom {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .bottom ul {
+        display: flex;
+        gap: 1rem;
+        margin-left: 3.5rem;
+        margin-top: 4.5rem;
+    }
+    .section2 .card .bottom ul li a {
+        display: block;
+    }
+    .section2 .card .bottom ul li a img {
+        border-radius: 1rem;
+        transition: all .3s;
+        width: 75%;
+        height: 75%;
+    }
+    .section2 .card .bottom ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .bottom ul li:hover img {
+        transform: scale(0.95);
+        filter: brightness(0.3);
+    }
+    .section2 .card .bottom ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .bottom ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-1.7rem, -8.5rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .bottom ul li .filter-box img {
+        width: 13%;
+        height: 13%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .bottom ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .bottom ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    
+    /* section3 */
+    
+    .section3 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section3 .title2 {
+        text-align: center;
+        width: 100%;
+    }
+    .section3 .clip {
+        width: 100%;
+        height: 10rem;
+        margin-top: 8rem;
+        background: url('../images/roop.png') no-repeat center/contain;
+    }
+    .section3 .clip .photo1 {
+        position: absolute;
+        top: 45%; left: 3%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo1 img {
+        transition: all .5s;
+        width: 55%;
+        height: 55%;
+    }
+    .section3 .clip .photo1:hover img {
+        transform: rotate(33deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo1 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-6rem, -12rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo1 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo1:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo1 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.9rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo1 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo2 {
+        position: absolute;
+        top: 48%; left: 30%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo2 img {
+        transition: all .5s;
+        width: 55%;
+        height: 55%;
+    }
+    .section3 .clip .photo2:hover img {
+        transform: rotate(-17deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo2 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-5rem, -11rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo2 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo2:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo2 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.9rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo2 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo3 {
+        position: absolute;
+        top: 53%; right: 15%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo3 img {
+        transition: all .5s;
+        width: 55%;
+        height: 55%;
+    }
+    .section3 .clip .photo3:hover img {
+        transform: rotate(2deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo3 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-4rem, -11rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo3 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo3:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo3 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.9rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo3 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo4 {
+        position: absolute;
+        top: 47%; right: -18%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo4 img {
+        transition: all .5s;
+        width: 55%;
+        height: 55%;
+    }
+    .section3 .clip .photo4:hover img {
+        transform: rotate(-31deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo4 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-5.8rem, -12rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo4 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo4:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo4 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.9rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.9rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo4 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .Bclip {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section3 .Bclip .clip1 {
+        position: absolute;
+        top: 33%; left: 8%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip2 {
+        position: absolute;
+        top: 40%; left: 32%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip3 {
+        position: absolute;
+        top: 37%; left: 55%;
+        z-index: 3;
+    }
+    .section3 .Bclip .clip4 {
+        position: absolute;
+        top: 37%;  left: 78%;
+        z-index: 3;
+    }
+    .bs {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 500%;
+        height: 100%;
+    }
+    /* section4 */
+
+    .section4 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section4 .title3 {
+        text-align: center;
+        margin-left: 5rem;
+        width: 100%;
+    }
+    .longfilm {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        /* margin-left: 10rem; */
+    }
+    .longfilm .left .tabmenu .inner {
+        width: 195px;
+        height: 640px;
+        transform: translateX(-6rem);
+        background: url('../images/longfilm2.png') no-repeat center center/contain;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        /* gap: 1rem; */
+        transform: translate(0.6rem, 6.5rem);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple {
+        background: url('../images/applelogo.png') no-repeat 0 0/contain;
+        filter: invert(30%);
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames {
+        background: url('../images/riotgameslogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2 {
+        background: url('../images/comingsoon.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2.on {
+        filter: invert(100%);
+    }
+    .longfilm > .right > .tabitem {
+        width: 40rem;
+        height: 30rem;    
+        background-color: #000;
+        border-radius: 2rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button {
+        margin-left: 9rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a {
+        width: 10rem;
+        height: 2rem;
+        font-size: 1rem;
+        font-family: 'moon';
+        font-weight: bold;
+        color: #fff;
+        border-radius: 5rem;
+        border: none;
+        background-color: black;
+        cursor: pointer;
+        /* margin: 1rem; */
+        transition: all .5s;
+        padding: 1rem 2rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a:hover {
+        color: #006DAE;
+        background-color: #fff;
+        border: none;
+    }
+    .tabnav li a {
+        display: block;
+    }
+    .longfilm > .right {
+        position: absolute;
+        top: 0; right: 15rem;
+    }
+    .longfilm > .right > .tabitem > .img-wrap {
+        position: relative;
+    }
+    .i1 {
+        width: 40rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/apple.jpg') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 11s;
+        margin-bottom: 2rem;
+    }
+    .i1:hover {
+        background-position: 100% 100%;
+    }
+    .filter3 {
+        position: absolute;
+        top: 1rem; left: -12.5rem;
+    }
+    .filter3 img {
+        width: 7%;
+        height: 7%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+    }
+    .i2 {
+        width: 40rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/nintendosub.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i2:hover {
+        background-position: 100% 100%;
+    }
+    .i3 {
+        width: 40rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/ikea.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 8s;
+        margin-bottom: 2rem;
+    }
+    .i3:hover {
+        background-position: 100% 100%;
+    }
+    .i3 .filter3 {
+        position: absolute;
+        top: 1rem; left: -12rem;
+        /* margin-left: -1rem; */
+    }
+    .i3 .filter3 img {
+        width: 4.5%;
+        height: 4.5%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .i3 .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+        /* margin-left: 1rem; */
+    }
+    .i4 {
+        width: 40rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i4:hover {
+        background-position: 100% 100%;
+    }
+    .i5 {
+        width: 40rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i5:hover {
+        background-position: 100% 100%;
+    }
+    /* section5 */
+
+    .section5 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section5 .title4 {
+        text-align: center;
+    }
+    .section5 .bigbox {
+        width: 100%;
+        height: 100%;
+        transform: translateX(10rem);
+    }
+    .section5 .innerbox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 80%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .section5 .smallbox {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-top: 5rem;
+    }
+    .section5 .mainbox {
+        width: 7rem;
+        height: 11.5rem;     
+        background: url('../images/shortfilm.png')no-repeat center center/contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .section5 .smallbox:nth-child(1) .mainbox .logo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(2) .mainbox .logo {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(3) .mainbox .logo {
+        background: url('../images/subwaylogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(4) .mainbox .logo {
+        background: url('../images/burgerkinglogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox.on .mainbox .logo {
+        filter: grayscale(0);
+    }
+    .section5 .subbox {
+        width: 8rem;
+        height: 9rem;        
+        background: url('../images/lfil.png')no-repeat 100% center/cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(1rem) translateX(-4rem);
+        transition: width 0.7s ease;
+    }
+    .section5 .smallbox.on .subbox {
+        width: 18.5rem;
+    }
+    .section5 .subbox h1 {
+        font-size: 1rem;
+        font-family: 'moon';
+        font-weight: 800;
+        color: #fff;
+        margin-top: 1.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox h1 {
+        opacity: 1;
+    }
+    .section5 .subbox p {
+        font-size: 0.6rem;
+        font-family: 'moon';
+        font-weight: 300;
+        color: #fff;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox p {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 {
+        display: flex;
+        justify-content: center;  /* 수평 중앙 정렬 */
+        align-items: center;      /* 수직 중앙 정렬 */
+        gap: 0.2rem;                /* 이미지 간격 조정 (필요시) */
+        width: 100%;              /* 부모 요소의 전체 너비를 차지하도록 */
+        margin-top: 0.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .filter4 {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 img {
+        width: 5.5%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    .section5 .subbox .button2 a {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.5rem;
+        font-family: 'moon';
+        font-weight: bold;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        cursor: pointer;
+        border-radius: 15rem;
+        transition: background-color 0.3s ease;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .button2 a {
+        opacity: 1;
+    }
+    .section5 .subbox .button2 a:hover {
+        background-color: #006DAE;
+        color: #fff;
+    }
+    /* section6 */
+
+    .section6 {
+        width: 20%;
+        height: 100vh;
+        position: relative;
+    }
+    .section6 .title5 {
+        text-align: center;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 900px !important;
+        height: 540px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        background-color: #000;
+        background: url('../images/nofilm.png') no-repeat 0 0 /contain;
+    }
+
+    /* sound */
+
+    .section6 .sound {
+        position: absolute;
+        top: 5rem;
+        right: 1.5rem;
+        z-index: 9;
+        width: 50px;
+        height: 50px;
+        background: url('../images/soundoff.png') no-repeat center/contain;
+        cursor: pointer;
+    }
+    .section6 .sound.on {
+        background: url('../images/soundon.png') no-repeat center/contain;
+    }
+
+    .swiper-slide video {
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        /* border-radius: 2rem !important; */
+        filter: brightness(1);
+        transition: all .5s;
+    }
+    .swiper-slide:hover video {
+        filter: brightness(0.3);
+    }
+    .swiper-slide:hover .filter-box3 {
+        opacity: 1;
+    }
+    .section6 .filter-box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* transform: translateY(-14rem); */
+        transition: all .5s;
+        margin: 0 auto;
+        z-index: 99;
+        opacity: 0;
+    }
+    .section6 .filter-box3 img {
+        width: 6%;
+        height: 6%;
+        margin-top: 1rem;
+        border-radius: 15rem;
+    }
+    .section6 .filter-box3 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 3rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section6 .filter-box3 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.5rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        transform: translateY(-4rem);
+    }
+    .swiper-pagination-bullet {
+        width: 40px !important;
+        height: 48px !important;
+        background: url('../images/noactive.png') no-repeat center center/contain;
+        background-size: auto;
+        border-radius: 0;
+    }
+    .swiper-pagination-bullet-active {
+        width: 56px !important;
+        height: 66px !important;
+        background: url('../images/active.png') no-repeat center center/contain;
+        background-size: auto;
+    }
+    /* section7 */
+
+    .section7 {
+        width: 100vw;
+        height: 420vh;
+        background: linear-gradient(#006DAE, #000 10%);
+    }
+    .section7 .title6 {
+        text-align: center;
+        padding-top: 40rem;
+    }
+    .footer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .footer .fleft {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        gap: 3rem;
+        padding-left: 1rem;
+    }
+    .footer .fleft .lbox {
+        width: 40px;
+        height: 25px;
+        border-radius: 0.3rem;
+        background-color: #fff;
+    }
+    .footer .fright {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        right: 0;
+        gap: 3rem;
+        padding-right: 1rem;
+    }
+    .footer .fright .rbox {
+        width: 40px;
+        height: 25px;
+        border-radius: 0.3rem;
+        background-color: #fff;
+    }
+    .introduce {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    .introduce h1 {
+        color: #006DAE;
+        font-size: 1.5rem;
+        font-family: 'moon';
+        font-weight: 500;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .introduce .ending {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .introduce .ending p {
+        transition: transform 0.5s ease-out;
+        position: relative; /* 자식 가상 요소가 절대 위치를 잡을 수 있도록 */
+        overflow: hidden; /* 가상 요소가 p 태그 밖으로 넘어가지 않게 설정 */
+    }
+    .introduce .ending p::after {
+        content: ''; /* 가상 요소에 내용을 비워두고 배경색만 설정 */
+        position: absolute; /* 절대 위치로 설정 */
+        top: 0; /* 상단부터 시작 */
+        left: 0; /* 왼쪽부터 시작 */
+        width: 100%; /* 가로 길이를 100%로 설정 */
+        height: 100%; /* 세로 길이를 100%로 설정 */
+        background-color: #006DAE; /* 배경 색 설정 */
+        transform: scaleY(0); /* 처음에는 세로 크기를 0으로 설정 */
+        transform-origin: bottom; /* 변형의 기준을 아래쪽으로 설정 */
+        transition: transform 0.5s ease-out; /* 애니메이션 설정 */
+        z-index: -1; /* 글자 위로 가리지 않게 배경을 뒤로 보냄 */
+    }
+    .introduce .ending:hover p::after {
+        transform: scaleY(1); /* 호버 시 세로 크기를 1로 설정하여 차오르는 효과 */
+    }
+    .introduce .ending:hover .sf {
+        color: #fff;
+        z-index: 9;
+    }
+    .introduce .ending:hover .ff {
+        color: #000;
+        z-index: 9;
+    }
+    .introduce p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+    .introduce .sf {
+        color: #6F6F6F;
+        font-size: 1.2rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: right;
+        padding-right: 1.5rem;
+    }
+    .introduce .ff {
+        color: #fff;
+        font-size: 1.2rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: left;
+        padding-left: 1.5rem;
+    }
+    .introduce .myface img {
+        border-radius: 1rem;
+        margin: 0 auto;
+    }
+    .introduce .myskills {
+        margin: 0 auto;
+    }
+    .introduce .myskills img {
+        width: 3%;
+        height: 3%;
+        border-radius: 15rem;
+    }
+    .title6 h2 {
+        color: #fff;
+        font-size: 3rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: center;
+        /* padding-top: 30rem; */
+        margin: 0 auto;
+    }
+    .title6 > img {
+        width: 100%;
+        margin: 0 auto;
+        /* padding-top: 15rem; */
+        opacity: 0.5;
+    }
+    
+}
+@media screen and (max-width : 768px) {
+    
+    /* header */
+    
+    header {
+        display: flex;
+        justify-content: space-between;
+    }
+    .menu {
+        top: 1rem; left: 1rem;
+        position: fixed;
+        z-index: 999;
+    }
+    .round {
+        width: 4rem;
+        height: 4rem;
+        position: absolute;
+        z-index: 9;
+        animation: turn linear infinite 3s both;
+        background: url('../images/Round.png')no-repeat center center/contain;
+        cursor: pointer;
+    }
+    @keyframes turn {
+        0% {transform: rotate(0deg);}
+        100% {transform: rotate(360deg);}
+    }
+    .box {
+        width: 3rem;
+        height: 2.3rem;
+        line-height: 2.5rem;
+        background-color: #000;
+        position: absolute;
+        top: 1.7rem; left: 2rem;
+        transition: all .3s;
+        border-radius: 0.5rem;
+    }
+    .box.on{
+        width: 33rem;
+        height: 2.3rem;  
+    }
+    .box ul {
+        display: flex;
+        width: 100%;
+        gap: 1rem;
+        margin-left: 2.2rem;
+        opacity: 0;
+        visibility: hidden;
+        transition: all .25s;
+    }
+    .box.on ul {
+        opacity: 1;
+        visibility: visible;
+    }
+    .box.on ul li{
+        display: block;
+    }
+    .box ul li a {
+        color: #fff;
+        text-align: center;
+        font-size: 1rem;
+    }
+    .box ul li a:hover {
+        color: #006DAE;
+    }
+    .box ul li a.on {
+        color: #006DAE;
+    }
+    
+    /* popup */
+    
+    /* .popup {
+        width: 100%;
+        height: 100%;
+        background-color: #fff;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 9999;
+        opacity: 1;
+        transition: all 1s;
+    }
+    .popup.remove{
+      opacity: 0;
+    } */
+    /* main */
+    
+    main{
+        overflow: hidden;
+    }
+    
+    /* section1 */
+    
+    .section1 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section1 .film {
+        position: absolute;
+        top: 0; right: -2%;
+        width: 45%;
+        height: 20%;        
+    }
+    .section1 .film img {
+        width: 100%;
+        height: 100%;
+    }
+    .section1 .responsive {
+        position: absolute;
+        top: 2%; left: 50%;
+        width: 100%;
+        height: 100%;
+        margin: 0 auto;
+    }
+    .section1 .responsive img {
+        width: 2rem;
+        height: 2rem;
+        z-index: 9;
+    }
+    .section1 .Frame {
+        position: absolute;
+        top: 30rem; left: 1.5rem;
+        width: 190px;
+        height: 230px;        
+    }
+    .section1 .s1 {
+        position: absolute;
+        top: 32rem; left: 3.5rem;
+        width: 33.5px;
+        height: 33.5px;        
+    }
+    .section1 .s2 {
+        position: absolute;
+        top: 31.1rem; left: 7.7rem;
+        width: 41px;
+        height: 41px;    
+    }
+    .abc {
+        margin-left: 4.5rem;
+        transform: translateY(15rem);
+    }
+    /* .abc > img:nth-child(1) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(2) {
+        opacity: 0;
+    }
+    .abc > img:nth-child(3) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(4) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(5) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(6) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(7) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(8) {
+        opacity: 0;
+    
+    }
+    .abc > img:nth-child(9) {
+        opacity: 0;
+    
+    } */
+    .name {
+        margin-left: 6rem;
+        transform: translateY(16rem);
+    }
+    /* .name > img:nth-child(1) {
+        opacity: 0;
+    }
+    .name > img:nth-child(2) {
+        opacity: 0;
+    }
+    .name > img:nth-child(3) {
+        opacity: 0;
+    }
+    .name > img:nth-child(4) {
+        opacity: 0;
+    }
+    .name > img:nth-child(5) {
+        opacity: 0;
+    }
+    .name > img:nth-child(6) {
+        opacity: 0;
+    }
+    .name > img:nth-child(7) {
+        opacity: 0;
+    }
+    .name > img:nth-child(8) {
+        opacity: 0;
+    } */
+    
+    /* section2 */
+    
+    .section2 {
+        width: 100%;
+        height: 100vh;
+    }
+    .section2 .title {
+        text-align: center;
+        width: 100%;
+    }
+    .section2 .card {
+        display: flex;
+        flex-direction: column;
+        /* gap: 1rem; */
+    }
+    .section2 .card .top {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .top ul {
+        display: flex;
+        /* gap: 1rem; */
+        margin-left: 3.5rem;
+        margin-top: 5.6rem;
+    }
+    .section2 .card .top ul li a {
+        display: block;
+    }
+    .section2 .card .top ul li a img {
+        border-radius: 1rem;
+        transition: all .3s;
+        width: 80%;
+        height: 80%;
+    }
+    .section2 .card .top ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .top ul li:hover img {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    .section2 .card .top ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .top ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-1.5rem, 0.2rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .top ul li .filter-box img {
+        width: 13%;
+        height: 13%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .top ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .top ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section2 .card .bottom {
+        width: 100%;
+        height: 313px;
+        background: url('../images/film.png') no-repeat center center/ contain;
+    }
+    .section2 .card .bottom ul {
+        display: flex;
+        gap: 1rem;
+        margin-left: 3.5rem;
+        margin-top: 5.6rem;
+    }
+    .section2 .card .bottom ul li a {
+        display: block;
+    }
+    .section2 .card .bottom ul li a img {
+        border-radius: 1rem;
+        transition: all .3s;
+        width: 80%;
+        height: 80%;
+    }
+    .section2 .card .bottom ul li {
+        transform: scale(1);
+        transition: all .5s;
+        filter: brightness(1);
+    }
+    .section2 .card .bottom ul li:hover img {
+        transform: scale(1);
+        filter: brightness(1);
+    }
+    .section2 .card .bottom ul li:hover .filter-box {
+        display: block;
+    }
+    .section2 .card .bottom ul li .filter-box {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-1.7rem, 0.2rem);
+        display: none;
+        transition: all .5s;
+        width: 230px;
+    }
+    .section2 .card .bottom ul li .filter-box img {
+        width: 13%;
+        height: 13%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+    }
+    .section2 .card .bottom ul li a h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section2 .card .bottom ul li a p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    
+    /* section3 */
+    
+    .section3 {
+        width: 100%;
+        height: 100vh;
+        position: relative;
+    }
+    .section3 .title2 {
+        text-align: center;
+        width: 100%;
+    }
+    .section3 .clip {
+        width: 100%;
+        height: 10rem;
+        margin-top: 6rem;
+        background: url('../images/roop.png') no-repeat center/contain;
+    }
+    .section3 .clip .photo1 {
+        position: absolute;
+        top: 38%; left: 2%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo1 img {
+        transition: all .5s;
+        width: 45%;
+        height: 45%;
+    }
+    .section3 .clip .photo1:hover img {
+        transform: rotate(33deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo1 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-7rem, -10.5rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo1 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo1:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo1 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo1 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.7rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo1 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo2 {
+        position: absolute;
+        top: 40%; left: 29%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo2 img {
+        transition: all .5s;
+        width: 45%;
+        height: 45%;
+    }
+    .section3 .clip .photo2:hover img {
+        transform: rotate(-17deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo2 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-6rem, -10rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo2 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo2:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo2 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo2 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.7rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo2 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo3 {
+        position: absolute;
+        top: 41%; right: 7%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo3 img {
+        transition: all .5s;
+        width: 45%;
+        height: 45%;
+    }
+    .section3 .clip .photo3:hover img {
+        transform: rotate(2deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo3 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-5rem, -9.5rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo3 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo3:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo3 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo3 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.7rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo3 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .clip .photo4 {
+        position: absolute;
+        top:39%; right: -29%;
+        filter: brightness(1);
+    }
+    .section3 .clip .photo4 img {
+        transition: all .5s;
+        width: 45%;
+        height: 45%;
+    }
+    .section3 .clip .photo4:hover img {
+        transform: rotate(-31deg);
+        filter: brightness(0.3);
+    }
+    .section3 .clip .photo4 .filter-box2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        transform: translate(-7rem, -10.5rem);
+        display: none;
+        transition: all .5s;
+        width: 290px;
+        margin: 0 auto;
+    }
+    .section3 .clip .photo4 .filter-box2 img {
+        width: 10%;
+        height: 10%;
+        filter: none;
+        opacity: 1;
+        margin-top: 0.5rem;
+        transform: rotate(0deg);
+        border-radius: 15rem;
+        margin-bottom: 1.5rem;
+    }
+    .section3 .clip .photo4:hover .filter-box2 {
+        display: block;
+    }
+    .section3 .clip .photo4 .filter-box2 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1.2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 0.8rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .section3 .clip .photo4 .filter-box2 a {
+        font-family: 'moon';
+        padding: 0.6rem 0.6rem;
+        color: #000;
+        font-size: 0.7rem;
+        background-color: #fff;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        margin-top: 0.5rem;
+        transition: background-color 0.3s ease;
+    }
+    .section3 .clip .photo4 .filter-box2 a:hover {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        background-color: #006DAE;
+        border: none;
+        border-radius: 2rem;
+        font-weight: bold;
+        cursor: pointer;
+    }
+    .section3 .Bclip {
+        display: flex;
+        justify-content: space-between;
+    }
+    .section3 .Bclip .clip1 {
+        position: absolute;
+        top: 25%; left: 4%;
+        z-index: -3;
+    }
+    .section3 .Bclip .clip2 {
+        position: absolute;
+        top: 30%; left: 30%;
+        z-index: -3;
+    }
+    .section3 .Bclip .clip3 {
+        position: absolute;
+        top: 28%; left: 50%;
+        z-index: -3;
+    }
+    .section3 .Bclip .clip4 {
+        position: absolute;
+        top: 28%;  left: 73%;
+        z-index: -3;
+    }
+    .bs {
+        display: flex;
+        flex-wrap: nowrap;
+        width: 500%;
+        height: 100%;
+    }
+    /* section4 */
+
+    .section4 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section4 .title3 {
+        text-align: center;
+        margin-left: 0;
+        width: 100%;
+    }
+    .longfilm {
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        position: relative;
+        /* margin-left: 10rem; */
+    }
+    .longfilm .left .tabmenu .inner {
+        width: 195px;
+        height: 640px;
+        transform: translateX(-6rem);
+        background: url('../images/longfilm2.png') no-repeat center center/contain;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav {
+        display: flex;
+        flex-direction: column;
+        /* justify-content: center;
+        align-items: center; */
+        /* gap: 1rem; */
+        transform: translate(0.6rem, 6.5rem);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple {
+        background: url('../images/applelogo.png') no-repeat 0 0/contain;
+        filter: invert(30%);
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .apple.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: grayscale(1);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .ikea.on {
+        filter: grayscale(0);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames {
+        background: url('../images/riotgameslogo.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames.on {
+        filter: invert(100%);
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2 {
+        background: url('../images/comingsoon.png') no-repeat 0 0/contain;
+        width: 4.8rem;
+        height: 4.8rem;
+        cursor: pointer;
+        filter: invert(30%);
+        transition: all .5s;
+        border-radius: 0.5rem;
+    }
+    .longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2.on {
+        filter: invert(100%);
+    }
+    .longfilm > .right > .tabitem {
+        width: 20rem;
+        height: 30rem;    
+        background-color: #000;
+        border-radius: 2rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button {
+        margin-left: 2.5rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a {
+        width: 5rem;
+        height: 1rem;
+        font-size: 0.7rem;
+        font-family: 'moon';
+        font-weight: bold;
+        color: #fff;
+        border-radius: 5rem;
+        border: none;
+        background-color: black;
+        cursor: pointer;
+        /* margin: 1rem; */
+        transition: all .5s;
+        padding: 1rem 1rem;
+    }
+    .longfilm > .right > .tabitem > .item > .img-wrap > .button a:hover {
+        color: #006DAE;
+        background-color: #fff;
+        border: none;
+    }
+    .tabnav li a {
+        display: block;
+    }
+    .longfilm > .right {
+        position: absolute;
+        top: 0; right: 15rem;
+    }
+    .longfilm > .right > .tabitem > .img-wrap {
+        position: relative;
+    }
+    .i1 {
+        width: 20rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/apple.jpg') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 11s;
+        margin-bottom: 2rem;
+    }
+    .i1:hover {
+        background-position: 100% 100%;
+    }
+    .filter3 {
+        position: absolute;
+        top: 1rem; left: -16.5rem;
+    }
+    .filter3 img {
+        width: 6%;
+        height: 6%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+    }
+    .i2 {
+        width: 20rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/nintendosub.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i2:hover {
+        background-position: 100% 100%;
+    }
+    .i3 {
+        width: 20rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/ikea.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 8s;
+        margin-bottom: 2rem;
+    }
+    .i3:hover {
+        background-position: 100% 100%;
+    }
+    .i3 .filter3 {
+        position: absolute;
+        top: 1rem; left: -16rem;
+        /* margin-left: -1rem; */
+    }
+    .i3 .filter3 img {
+        width: 5%;
+        height: 5%;
+        border-radius: 15rem;
+        margin-top: 0.5rem;
+    }
+    .i3 .filter3 p {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: 300;
+        /* margin-left: 1rem; */
+    }
+    .i4 {
+        width: 20rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i4:hover {
+        background-position: 100% 100%;
+    }
+    .i5 {
+        width: 20rem;
+        height: 30rem;
+        border: 20px solid #000;
+        border-radius: 2rem;
+        background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+        transition: filter .5s, background-position 15s;
+        margin-bottom: 2rem;
+    }
+    .i5:hover {
+        background-position: 100% 100%;
+    }
+    /* section5 */
+
+    .section5 {
+        width: 20%;
+        height: 100vh;
+    }
+    .section5 .title4 {
+        text-align: center;
+    }
+    .section5 .bigbox {
+        width: 100%;
+        height: 100%;
+        transform: translateX(10rem);
+    }
+    .section5 .innerbox {
+        display: flex;
+        flex-wrap: wrap;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+    }
+    .section5 .smallbox {
+        display: flex;
+        align-items: center;
+        width: 50%;
+        margin-top: 5rem;
+    }
+    .section5 .mainbox {
+        width: 7rem;
+        height: 11.5rem;     
+        background: url('../images/shortfilm.png')no-repeat center center/contain;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        z-index: 1;
+    }
+    .section5 .smallbox:nth-child(1) .mainbox .logo {
+        background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(2) .mainbox .logo {
+        background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(3) .mainbox .logo {
+        background: url('../images/subwaylogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox:nth-child(4) .mainbox .logo {
+        background: url('../images/burgerkinglogo.png') no-repeat 0 0/contain;
+        width: 5rem;
+        height: 5rem;
+        cursor: pointer;
+        border-radius: 0.5rem;
+        transition: color 0.3s ease;
+        filter: grayscale(1);
+        transform: translateY(0.5rem);
+    }
+    .section5 .smallbox.on .mainbox .logo {
+        filter: grayscale(0);
+    }
+    .section5 .subbox {
+        width: 8rem;
+        height: 9rem;        
+        background: url('../images/lfil.png')no-repeat 100% center/cover;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        transform: translateY(1rem) translateX(-4rem);
+        transition: width 0.7s ease;
+    }
+    .section5 .smallbox.on .subbox {
+        width: 18.5rem;
+    }
+    .section5 .subbox h1 {
+        font-size: 1rem;
+        font-family: 'moon';
+        font-weight: 800;
+        color: #fff;
+        margin-top: 1.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox h1 {
+        opacity: 1;
+    }
+    .section5 .subbox p {
+        font-size: 0.6rem;
+        font-family: 'moon';
+        font-weight: 300;
+        color: #fff;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox p {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 {
+        display: flex;
+        justify-content: center;  /* 수평 중앙 정렬 */
+        align-items: center;      /* 수직 중앙 정렬 */
+        gap: 0.2rem;                /* 이미지 간격 조정 (필요시) */
+        width: 100%;              /* 부모 요소의 전체 너비를 차지하도록 */
+        margin-top: 0.5rem;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .filter4 {
+        opacity: 1;
+    }
+    .section5 .subbox .filter4 img {
+        width: 5.5%;
+        height: auto;
+        border-radius: 50%;
+        margin-bottom: 1rem;
+    }
+    .section5 .subbox .button2 a {
+        padding: 0.4rem 0.7rem;
+        font-size: 0.5rem;
+        font-family: 'moon';
+        font-weight: bold;
+        background-color: #fff;
+        color: #000;
+        border: none;
+        cursor: pointer;
+        border-radius: 15rem;
+        transition: background-color 0.3s ease;
+        transition: 0.3s ease;
+        opacity: 0;
+    }
+    .section5 .smallbox.on .subbox .button2 a {
+        opacity: 1;
+    }
+    .section5 .subbox .button2 a:hover {
+        background-color: #006DAE;
+        color: #fff;
+    }
+    /* section6 */
+
+    .section6 {
+        width: 20%;
+        height: 100vh;
+        position: relative;
+    }
+    .section6 .title5 {
+        text-align: center;
+    }
+    .swiper {
+        width: 100%;
+        height: 100%;
+    }
+    .swiper-slide {
+        background-position: center;
+        background-size: cover;
+        width: 540px !important;
+        height: 324px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin-top: 1rem;
+        background-color: #000;
+        background: url('../images/nofilm.png') no-repeat 0 0 /contain;
+    }
+
+    /* sound */
+
+    .section6 .sound {
+        position: absolute;
+        top: 3rem;
+        right: 1rem;
+        z-index: 9;
+        width: 30px;
+        height: 30px;
+        background: url('../images/soundoff.png') no-repeat center/contain;
+        cursor: pointer;
+    }
+    .section6 .sound.on {
+        background: url('../images/soundon.png') no-repeat center/contain;
+    }
+
+    .swiper-slide video {
+        display: block;
+        position: absolute;
+        width: 80%;
+        height: 100%;
+        /* border-radius: 2rem !important; */
+        filter: brightness(1);
+        transition: all .5s;
+    }
+    .swiper-slide:hover video {
+        filter: brightness(0.3);
+    }
+    .swiper-slide:hover .filter-box3 {
+        opacity: 1;
+    }
+    .section6 .filter-box3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        /* transform: translateY(-14rem); */
+        transition: all .5s;
+        margin: 0 auto;
+        z-index: 99;
+        opacity: 0;
+    }
+    .section6 .filter-box3 img {
+        width: 6%;
+        height: 6%;
+        margin-top: 1rem;
+        border-radius: 15rem;
+    }
+    .section6 .filter-box3 h1 {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 2rem;
+        font-weight: bold;
+        transition: all .5s;
+    }
+    .section6 .filter-box3 p {
+        font-family: 'moon';
+        color: #fff;
+        font-size: 1rem;
+        font-weight: 300;
+        transition: all .5s;
+    }
+    .swiper-pagination {
+        display: flex;
+        justify-content: center;
+        gap: 2rem;
+        transform: translateY(-12rem);
+    }
+    .swiper-pagination-bullet {
+        width: 40px !important;
+        height: 48px !important;
+        background: url('../images/noactive.png') no-repeat center center/contain;
+        background-size: auto;
+        border-radius: 0;
+    }
+    .swiper-pagination-bullet-active {
+        width: 56px !important;
+        height: 66px !important;
+        background: url('../images/active.png') no-repeat center center/contain;
+        background-size: auto;
+    }
+    /* section7 */
+
+    .section7 {
+        width: 100vw;
+        height: 360vh;
+        background: linear-gradient(#006DAE, #000 10%);
+    }
+    .section7 .title6 {
+        text-align: center;
+        padding-top: 40rem;
+    }
+    .footer {
+        width: 100%;
+        height: 100%;
+        position: relative;
+    }
+    .footer .fleft {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        left: 0;
+        gap: 1.5rem;
+        padding-left: 1rem;
+    }
+    .footer .fleft .lbox {
+        width: 25px;
+        height: 17.5px;
+        border-radius: 0.2rem;
+        background-color: #fff;
+    }
+    .footer .fright {
+        display: flex;
+        flex-direction: column;
+        position: absolute;
+        top: -5rem;
+        right: 0;
+        gap: 1.5rem;
+        padding-right: 1rem;
+    }
+    .footer .fright .rbox {
+        width: 25px;
+        height: 17.5px;
+        border-radius: 0.2rem;
+        background-color: #fff;
+    }
+    .introduce {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 5rem;
+    }
+    .introduce h1 {
+        color: #006DAE;
+        font-size: 1.2rem;
+        font-family: 'moon';
+        font-weight: 500;
+        padding-top: 3rem;
+        padding-bottom: 1rem;
+        margin: 0 auto;
+        width: 100%;
+    }
+    .introduce .ending {
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .introduce .ending p {
+        transition: transform 0.5s ease-out;
+        position: relative; /* 자식 가상 요소가 절대 위치를 잡을 수 있도록 */
+        overflow: hidden; /* 가상 요소가 p 태그 밖으로 넘어가지 않게 설정 */
+    }
+    .introduce .ending p::after {
+        content: ''; /* 가상 요소에 내용을 비워두고 배경색만 설정 */
+        position: absolute; /* 절대 위치로 설정 */
+        top: 0; /* 상단부터 시작 */
+        left: 0; /* 왼쪽부터 시작 */
+        width: 100%; /* 가로 길이를 100%로 설정 */
+        height: 100%; /* 세로 길이를 100%로 설정 */
+        background-color: #006DAE; /* 배경 색 설정 */
+        transform: scaleY(0); /* 처음에는 세로 크기를 0으로 설정 */
+        transform-origin: bottom; /* 변형의 기준을 아래쪽으로 설정 */
+        transition: transform 0.5s ease-out; /* 애니메이션 설정 */
+        z-index: -1; /* 글자 위로 가리지 않게 배경을 뒤로 보냄 */
+    }
+    .introduce .ending:hover p::after {
+        transform: scaleY(1); /* 호버 시 세로 크기를 1로 설정하여 차오르는 효과 */
+    }
+    .introduce .ending:hover .sf {
+        color: #fff;
+        z-index: 9;
+    }
+    .introduce .ending:hover .ff {
+        color: #000;
+        z-index: 9;
+    }
+    .introduce p {
+        width: 100%;
+        margin: 0 auto;
+        margin-top: 0.5rem;
+    }
+    .introduce .sf {
+        color: #6F6F6F;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: right;
+        padding-right: 1rem;
+    }
+    .introduce .ff {
+        color: #fff;
+        font-size: 0.9rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: left;
+        padding-left: 1rem;
+    }
+    .introduce .myface img {
+        border-radius: 1rem;
+        margin: 0 auto;
+    }
+    .introduce .myskills {
+        margin: 0 auto;
+    }
+    .introduce .myskills img {
+        width: 3%;
+        height: 3%;
+        border-radius: 15rem;
+    }
+    .title6 h2 {
+        color: #fff;
+        font-size: 2rem;
+        font-family: 'moon';
+        font-weight: bold;
+        text-align: center;
+        /* padding-top: 30rem; */
+        margin: 0 auto;
+    }
+    .title6 > img {
+        width: 100%;
+        margin: 0 auto;
+        /* padding-top: 15rem; */
+        opacity: 0.5;
+    }
+    
+}

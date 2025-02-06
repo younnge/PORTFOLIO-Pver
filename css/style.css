@@ -1,0 +1,1364 @@
+@charset "utf-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+ul {
+    list-style: none;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+body{
+    font-size: 10px;
+    background-color: #006DAE;
+    /* overflow-x: hidden; */
+}
+
+/* header */
+
+header {
+    display: flex;
+    justify-content: space-between;
+}
+.menu {
+    top: 1rem; left: 1rem;
+    position: fixed;
+    z-index: 999;
+}
+.round {
+    width: 5rem;
+    height: 5rem;
+    position: absolute;
+    z-index: 9;
+    animation: turn linear infinite 3s both;
+    background: url('../images/Round.png')no-repeat center center/contain;
+    cursor: pointer;
+}
+@keyframes turn {
+    0% {transform: rotate(0deg);}
+    100% {transform: rotate(360deg);}
+}
+.box {
+    width: 3.5rem;
+    height: 3rem;
+    line-height: 3rem;
+    background-color: #000;
+    position: absolute;
+    top: 2rem; left: 2.5rem;
+    transition: all .3s;
+    border-radius: 0.5rem;
+}
+.box.on{
+    width: 46rem;
+    height: 3rem;  
+}
+.box ul {
+    display: flex;
+    width: 100%;
+    gap: 1.5rem;
+    margin-left: 5.5em;
+    opacity: 0;
+    visibility: hidden;
+    transition: all .25s;
+}
+.box.on ul {
+    opacity: 1;
+    visibility: visible;
+}
+.box.on ul li{
+    display: block;
+}
+.box ul li a {
+    color: #fff;
+    text-align: center;
+    font-size: 1.3rem;
+}
+.box ul li a:hover {
+    color: #006DAE;
+}
+.box ul li a.on {
+    color: #006DAE;
+}
+
+/* popup */
+
+.popup {
+    width: 100%;
+    height: 100%;
+    background-color: #fff;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 9999;
+    opacity: 1;
+    transition: all 1s;
+}
+.popup.remove{
+  opacity: 0;
+}
+/* main */
+
+main{
+    overflow: hidden;
+}
+
+/* section1 */
+
+.section1 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.section1 .film {
+    position: absolute;
+    top: 0; right: 0;
+    width: 48%;
+    height: 48%;
+}
+.section1 .film img {
+    width: 100%;
+    height: 100%;
+}
+.section1 .responsive {
+    position: absolute;
+    top: 2%; left: 50%;
+    width: 100%;
+    height: 100%;
+    margin: 0 auto;
+}
+.section1 .responsive img {
+    width: 3rem;
+    height: 3rem;
+    z-index: 9;
+}
+.section1 .Frame {
+    position: absolute;
+    top: 10rem; left: 10rem;
+    width: 670px;
+    height: 825px;
+}
+.section1 .s1 {
+    position: absolute;
+    top: 17rem; left: 17rem;
+    width: 119px;
+    height: 119px;
+}
+.section1 .s2 {
+    position: absolute;
+    top: 14rem; left: 32rem;
+    width: 147px;
+    height: 147px;
+}
+.abc {
+    margin-left: 55rem;
+    transform: translateY(26rem);
+}
+.abc > img:nth-child(1) {
+    opacity: 0;
+}
+.abc > img:nth-child(2) {
+    opacity: 0;
+}
+.abc > img:nth-child(3) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(4) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(5) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(6) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(7) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(8) {
+    opacity: 0;
+
+}
+.abc > img:nth-child(9) {
+    opacity: 0;
+
+}
+.name {
+    margin-left: 58rem;
+    transform: translateY(26rem);
+}
+.name > img:nth-child(1) {
+    opacity: 0;
+}
+.name > img:nth-child(2) {
+    opacity: 0;
+}
+.name > img:nth-child(3) {
+    opacity: 0;
+}
+.name > img:nth-child(4) {
+    opacity: 0;
+}
+.name > img:nth-child(5) {
+    opacity: 0;
+}
+.name > img:nth-child(6) {
+    opacity: 0;
+}
+.name > img:nth-child(7) {
+    opacity: 0;
+}
+.name > img:nth-child(8) {
+    opacity: 0;
+}
+
+/* section2 */
+
+.section2 {
+    width: 100%;
+    height: 100vh;
+}
+.section2 .title {
+    text-align: center;
+    width: 100%;
+}
+.section2 .card {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section2 .card .top {
+    width: 100%;
+    height: 422px;
+    background: url('../images/film.png') no-repeat center center/ contain;
+}
+.section2 .card .top ul {
+    display: flex;
+    gap: 7rem;
+    margin-left: 7rem;
+    margin-top: 2.8rem;
+}
+.section2 .card .top ul li a {
+    display: block;
+}
+.section2 .card .top ul li a img {
+    border-radius: 2rem;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+}
+.section2 .card .top ul li {
+    transform: scale(1);
+    transition: all .5s;
+    filter: brightness(1);
+}
+.section2 .card .top ul li:hover img {
+    transform: scale(0.95);
+    filter: brightness(0.3);
+}
+.section2 .card .top ul li:hover .filter-box {
+    display: block;
+}
+.section2 .card .top ul li .filter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-14.5rem);
+    display: none;
+    transition: all .5s;
+    width: 332px;
+}
+.section2 .card .top ul li .filter-box img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+.section2 .card .top ul li a h2 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section2 .card .top ul li a h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section2 .card .top ul li a p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section2 .card .bottom {
+    width: 100%;
+    height: 422px;
+    background: url('../images/film.png') no-repeat center center/ contain;
+}
+.section2 .card .bottom ul {
+    display: flex;
+    gap: 7rem;
+    margin-left: 7rem;
+    margin-top: 2.8rem;
+}
+.section2 .card .bottom ul li a {
+    display: block;
+}
+.section2 .card .bottom ul li a img {
+    border-radius: 2rem;
+    transition: all .3s;
+    width: 100%;
+    height: 100%;
+}
+.section2 .card .bottom ul li {
+    transform: scale(1);
+    transition: all .5s;
+    filter: brightness(1);
+}
+.section2 .card .bottom ul li:hover img {
+    transform: scale(0.95);
+    filter: brightness(0.3);
+}
+.section2 .card .bottom ul li:hover .filter-box {
+    display: block;
+}
+.section2 .card .bottom ul li .filter-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-14.5rem);
+    display: none;
+    transition: all .5s;
+    width: 332px;
+}
+.section2 .card .bottom ul li .filter-box img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+}
+.section2 .card .bottom ul li a h2 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section2 .card .bottom ul li a h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section2 .card .bottom ul li a p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+
+/* section3 */
+
+.section3 {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+}
+.section3 .title2 {
+    text-align: center;
+    width: 100%;
+}
+.section3 .clip {
+    width: 100%;
+    height: 10rem;
+    margin-top: 10rem;
+    background: url('../images/roop.png') no-repeat 0 0/contain;
+}
+.section3 .clip .photo1 {
+    position: absolute;
+    top: 37%; left: 3%;
+    filter: brightness(1);
+}
+.section3 .clip .photo1 img {
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+.section3 .clip .photo1:hover img {
+    transform: rotate(33deg);
+    filter: brightness(0.3);
+}
+.section3 .clip .photo1 .filter-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-20rem);
+    display: none;
+    transition: all .5s;
+    width: 290px;
+    margin: 0 auto;
+}
+.section3 .clip .photo1 .filter-box2 img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+    transform: rotate(0deg);
+    border-radius: 15rem;
+    margin-bottom: 1.5rem;
+}
+.section3 .clip .photo1:hover .filter-box2 {
+    display: block;
+}
+.section3 .clip .photo1 .filter-box2 h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section3 .clip .photo1 .filter-box2 p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section3 .clip .photo1 .filter-box2 a {
+    font-family: 'moon';
+    padding: 1rem 1rem;
+    color: #000;
+    font-size: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    transition: background-color 0.3s ease;
+}
+.section3 .clip .photo1 .filter-box2 a:hover {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    background-color: #006DAE;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section3 .clip .photo2 {
+    position: absolute;
+    top: 42%; left: 30%;
+    filter: brightness(1);
+}
+.section3 .clip .photo2 img {
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+.section3 .clip .photo2:hover img {
+    transform: rotate(-17deg);
+    filter: brightness(0.3);
+}
+.section3 .clip .photo2 .filter-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-19rem);
+    display: none;
+    transition: all .5s;
+    width: 290px;
+    margin: 0 auto;
+}
+.section3 .clip .photo2 .filter-box2 img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+    transform: rotate(0deg);
+    border-radius: 15rem;
+    margin-bottom: 1.5rem;
+}
+.section3 .clip .photo2:hover .filter-box2 {
+    display: block;
+}
+.section3 .clip .photo2 .filter-box2 h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section3 .clip .photo2 .filter-box2 p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section3 .clip .photo2 .filter-box2 a {
+    font-family: 'moon';
+    padding: 1rem 1rem;
+    color: #000;
+    font-size: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+.section3 .clip .photo2 .filter-box2 a:hover {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    background-color: #006DAE;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section3 .clip .photo3 {
+    position: absolute;
+    top: 45%; right: 30%;
+    filter: brightness(1);
+}
+.section3 .clip .photo3 img {
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+.section3 .clip .photo3:hover img {
+    transform: rotate(2deg);
+    filter: brightness(0.3);
+}
+.section3 .clip .photo3 .filter-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-17rem);
+    display: none;
+    transition: all .5s;
+    width: 284px;
+    margin: 0 auto;
+}
+.section3 .clip .photo3 .filter-box2 img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+    transform: rotate(0deg);
+    border-radius: 15rem;
+    margin-bottom: 1.5rem;
+}
+.section3 .clip .photo3:hover .filter-box2 {
+    display: block;
+}
+.section3 .clip .photo3 .filter-box2 h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section3 .clip .photo3 .filter-box2 p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section3 .clip .photo3 .filter-box2 a {
+    font-family: 'moon';
+    padding: 1rem 1rem;
+    color: #000;
+    font-size: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+.section3 .clip .photo3 .filter-box2 a:hover {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    background-color: #006DAE;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section3 .clip .photo4 {
+    position: absolute;
+    top: 39%; right: 2%;
+    filter: brightness(1);
+}
+.section3 .clip .photo4 img {
+    transition: all .5s;
+    width: 100%;
+    height: 100%;
+}
+.section3 .clip .photo4:hover img {
+    transform: rotate(-31deg);
+    filter: brightness(0.3);
+}
+.section3 .clip .photo4 .filter-box2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transform: translateY(-20rem);
+    display: none;
+    transition: all .5s;
+    width: 290px;
+    margin: 0 auto;
+}
+.section3 .clip .photo4 .filter-box2 img {
+    width: 15%;
+    height: 15%;
+    filter: none;
+    opacity: 1;
+    margin-top: 0.5rem;
+    transform: rotate(0deg);
+    border-radius: 15rem;
+    margin-bottom: 1.5rem;
+}
+.section3 .clip .photo4:hover .filter-box2 {
+    display: block;
+}
+.section3 .clip .photo4 .filter-box2 h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 2rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section3 .clip .photo4 .filter-box2 p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.section3 .clip .photo4 .filter-box2 a {
+    font-family: 'moon';
+    padding: 1rem 1rem;
+    color: #000;
+    font-size: 1rem;
+    background-color: #fff;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    margin-top: 0.5rem;
+    transition: background-color 0.3s ease;
+}
+.section3 .clip .photo4 .filter-box2 a:hover {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1rem;
+    background-color: #006DAE;
+    border: none;
+    border-radius: 2rem;
+    font-weight: bold;
+    cursor: pointer;
+}
+.section3 .Bclip {
+    display: flex;
+    justify-content: space-between;
+}
+.section3 .Bclip .clip1 {
+    position: absolute;
+    top: 28%; left: 10%;
+    z-index: 3;
+}
+.section3 .Bclip .clip2 {
+    position: absolute;
+    top: 35%; left: 35%;
+    z-index: 3;
+}
+.section3 .Bclip .clip3 {
+    position: absolute;
+    top: 33%; left: 58%;
+    z-index: 3;
+}
+.section3 .Bclip .clip4 {
+    position: absolute;
+    top: 32%;  left: 80%;
+    z-index: 3;
+}
+.bs {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 500%;
+    height: 100%;
+}
+
+/* section4 */
+
+.section4 {
+    width: 20%;
+    height: 100vh;
+}
+.section4 .title3 {
+    text-align: center;
+    margin-left: 6rem;
+    width: 100%;
+}
+.longfilm {
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+    margin-left: 10rem;
+}
+.longfilm .left .tabmenu .inner {
+    width: 338px;
+    height: 830px;
+    transform: translateX(0);
+    background: url('../images/longfilm2.png') no-repeat center center/contain;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    transform: translate(0.6rem, 9.5rem);
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .apple {
+    background: url('../images/applelogo.png') no-repeat 0 0/contain;
+    filter: invert(30%);
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    transition: all .5s;
+    border-radius: 1rem;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .apple.on {
+    filter: invert(100%);
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo {
+    background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all .5s;
+    border-radius: 1rem;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .nintendo.on {
+    filter: grayscale(0);
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .ikea {
+    background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    filter: grayscale(1);
+    transition: all .5s;
+    border-radius: 1rem;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .ikea.on {
+    filter: grayscale(0);
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames {
+    background: url('../images/riotgameslogo.png') no-repeat 0 0/contain;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    filter: invert(30%);
+    transition: all .5s;
+    border-radius: 1rem;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames.on {
+    filter: invert(100%);
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2 {
+    background: url('../images/comingsoon.png') no-repeat 0 0/contain;
+    width: 6rem;
+    height: 6rem;
+    cursor: pointer;
+    filter: invert(30%);
+    transition: all .5s;
+    border-radius: 1rem;
+}
+.longfilm > .left > .tabmenu > .inner > .tabnav > .riotgames2.on {
+    filter: invert(100%);
+}
+.longfilm > .right > .tabitem {
+    width: 70rem;
+    height: 42.5rem;
+    background-color: #000;
+    border-radius: 2rem;
+}
+.longfilm > .right > .tabitem > .item > .img-wrap > .button {
+    margin-left: 21.5rem;
+}
+.longfilm > .right > .tabitem > .item > .img-wrap > .button a {
+    width: 13rem;
+    height: 5rem;
+    font-size: 1.5rem;
+    font-family: 'moon';
+    font-weight: bold;
+    color: #fff;
+    border-radius: 5rem;
+    border: none;
+    background-color: black;
+    cursor: pointer;
+    margin: 1rem;
+    transition: all .5s;
+    padding: 1rem 2rem;
+}
+.longfilm > .right > .tabitem > .item > .img-wrap > .button a:hover {
+    color: #006DAE;
+    background-color: #fff;
+    border: none;
+}
+.tabnav li a {
+    display: block;
+}
+.longfilm > .right {
+    position: absolute;
+    top: 0; right: 15rem;
+}
+.longfilm > .right > .tabitem > .img-wrap {
+    position: relative;
+}
+.i1 {
+    width: 70rem;
+    height: 42.5rem;
+    border: 20px solid #000;
+    border-radius: 2rem;
+    background: url('../images/apple.jpg') no-repeat 0% 0%/cover;
+    transition: filter .5s, background-position 11s;
+    margin-bottom: 2rem;
+}
+.i1:hover {
+    background-position: 100% 100%;
+}
+.filter3 {
+    position: absolute;
+    top: 1.8rem; left: -15rem;
+}
+.filter3 img {
+    width: 8%;
+    height: 8%;
+    border-radius: 15rem;
+    margin-top: 0.5rem;
+}
+.filter3 p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'moon';
+    font-weight: 300;
+}
+.i2 {
+    width: 70rem;
+    height: 42.5rem;
+    border: 20px solid #000;
+    border-radius: 2rem;
+    background: url('../images/nintendosub.png') no-repeat 0% 0%/cover;
+    transition: filter .5s, background-position 15s;
+    margin-bottom: 2rem;
+}
+.i2:hover {
+    background-position: 100% 100%;
+}
+.i3 {
+    width: 70rem;
+    height: 42.5rem;
+    border: 20px solid #000;
+    border-radius: 2rem;
+    background: url('../images/ikea.png') no-repeat 0% 0%/cover;
+    transition: filter .5s, background-position 8s;
+    margin-bottom: 2rem;
+}
+.i3:hover {
+    background-position: 100% 100%;
+}
+.i3 .filter3 {
+    position: absolute;
+    top: 1.8rem; left: -15rem;
+    margin-left: -1.2rem;
+}
+.i3 .filter3 img {
+    width: 6%;
+    height: 6%;
+    border-radius: 15rem;
+    margin-top: 0.5rem;
+}
+.i3 .filter3 p {
+    color: #fff;
+    font-size: 1rem;
+    font-family: 'moon';
+    font-weight: 300;
+    margin-left: 1rem;
+}
+.i4 {
+    width: 70rem;
+    height: 42.5rem;
+    border: 20px solid #000;
+    border-radius: 2rem;
+    background: url('../images/riotgames.png') no-repeat 0% 0%/cover;
+    transition: filter .5s, background-position 15s;
+    margin-bottom: 2rem;
+}
+.i4:hover {
+    background-position: 100% 100%;
+}
+.i5 {
+    width: 70rem;
+    height: 42.5rem;
+    border: 20px solid #000;
+    border-radius: 2rem;
+    background: url('../images/comingsoon.png') no-repeat 0% 0%/cover;
+    transition: filter .5s, background-position 15s;
+    margin-bottom: 2rem;
+}
+.i5:hover {
+    background-position: 100% 100%;
+}
+
+/* section5 */
+
+.section5 {
+    width: 20%;
+    height: 100vh;
+}
+.section5 .title4 {
+    text-align: center;
+}
+.section5 .bigbox {
+    width: 100%;
+    height: 100%;
+    transform: translateX(10rem);
+}
+.section5 .innerbox {
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+}
+.section5 .smallbox {
+    display: flex;
+    align-items: center;
+    width: 50%;
+    margin-top: 3rem;
+}
+.section5 .mainbox {
+    width: 11rem;
+    height: 19.5rem;
+    background: url('../images/shortfilm.png')no-repeat center center/contain;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+}
+.section5 .smallbox:nth-child(1) .mainbox .logo {
+    background: url('../images/nintendologo.png') no-repeat 0 0/contain;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: color 0.3s ease;
+    filter: grayscale(1);
+    transform: translateY(1rem);
+}
+.section5 .smallbox:nth-child(2) .mainbox .logo {
+    background: url('../images/ikealogo.png') no-repeat 0 0/contain;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: color 0.3s ease;
+    filter: grayscale(1);
+    transform: translateY(1rem);
+}
+.section5 .smallbox:nth-child(3) .mainbox .logo {
+    background: url('../images/subwaylogo.png') no-repeat 0 0/contain;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: color 0.3s ease;
+    filter: grayscale(1);
+    transform: translateY(1rem);
+}
+.section5 .smallbox:nth-child(4) .mainbox .logo {
+    background: url('../images/burgerkinglogo.png') no-repeat 0 0/contain;
+    width: 8rem;
+    height: 8rem;
+    cursor: pointer;
+    border-radius: 1rem;
+    transition: color 0.3s ease;
+    filter: grayscale(1);
+    transform: translateY(1rem);
+}
+.section5 .smallbox.on .mainbox .logo {
+    filter: grayscale(0);
+}
+.section5 .subbox {
+    width: 14rem;
+    height: 15.8rem;
+    background: url('../images/lfil.png')no-repeat 100% center/cover;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    transform: translateY(1.1rem) translateX(-6rem);
+    transition: width 0.7s ease;
+}
+.section5 .smallbox.on .subbox {
+    width: 35rem;
+}
+.section5 .subbox h1 {
+    font-size: 2.5rem;
+    font-family: 'moon';
+    font-weight: 800;
+    color: #fff;
+    margin-top: 2rem;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+.section5 .smallbox.on .subbox h1 {
+    opacity: 1;
+}
+.section5 .subbox p {
+    font-size: 1.1rem;
+    font-family: 'moon';
+    font-weight: 300;
+    color: #fff;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+.section5 .smallbox.on .subbox p {
+    opacity: 1;
+}
+.section5 .subbox .filter4 {
+    display: flex;
+    justify-content: center;  /* 수평 중앙 정렬 */
+    align-items: center;      /* 수직 중앙 정렬 */
+    gap: 0.2rem;                /* 이미지 간격 조정 (필요시) */
+    width: 100%;              /* 부모 요소의 전체 너비를 차지하도록 */
+    margin-top: 0.5rem;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+.section5 .smallbox.on .subbox .filter4 {
+    opacity: 1;
+}
+.section5 .subbox .filter4 img {
+    width: 6%;
+    height: auto;
+    border-radius: 50%;
+    margin-bottom: 1rem;
+}
+.section5 .subbox .button2 a {
+    padding: 0.5rem 1rem;
+    font-size: 1rem;
+    font-family: 'moon';
+    font-weight: bold;
+    background-color: #fff;
+    color: #000;
+    border: none;
+    cursor: pointer;
+    border-radius: 15rem;
+    transition: background-color 0.3s ease;
+    transition: 0.3s ease;
+    opacity: 0;
+}
+.section5 .smallbox.on .subbox .button2 a {
+    opacity: 1;
+}
+.section5 .subbox .button2 a:hover {
+    background-color: #006DAE;
+    color: #fff;
+}
+
+/* section6 */
+
+.section6 {
+    width: 20%;
+    height: 100vh;
+    position: relative;
+}
+.section6 .title5 {
+    text-align: center;
+}
+.swiper {
+    width: 100%;
+    height: 100%;
+}
+.swiper-slide {
+    background-position: center;
+    background-size: cover;
+    width: 1000px !important;
+    height: 600px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 1rem;
+    background-color: #000;
+    background: url('../images/nofilm.png') no-repeat 0 0 /contain;
+}
+
+/* sound */
+
+.section6 .sound {
+    position: absolute;
+    top: 5rem;
+    right: 1.5rem;
+    z-index: 9;
+    width: 50px;
+    height: 50px;
+    background: url('../images/soundoff.png') no-repeat center/contain;
+    cursor: pointer;
+}
+.section6 .sound.on {
+    background: url('../images/soundon.png') no-repeat center/contain;
+}
+
+.swiper-slide video {
+    display: block;
+    position: absolute;
+    width: 80%;
+    height: 100%;
+    /* border-radius: 2rem !important; */
+    filter: brightness(1);
+    transition: all .5s;
+}
+.swiper-slide:hover video {
+    filter: brightness(0.3);
+}
+.swiper-slide:hover .filter-box3 {
+    opacity: 1;
+}
+.section6 .filter-box3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* transform: translateY(14rem); */
+    transition: all .5s;
+    margin: 0 auto;
+    z-index: 99;
+    opacity: 0;
+}
+.section6 .filter-box3 img {
+    width: 6%;
+    height: 6%;
+    margin-top: 1rem;
+    border-radius: 15rem;
+}
+.section6 .filter-box3 h1 {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 3rem;
+    font-weight: bold;
+    transition: all .5s;
+}
+.section6 .filter-box3 p {
+    font-family: 'moon';
+    color: #fff;
+    font-size: 1.5rem;
+    font-weight: 300;
+    transition: all .5s;
+}
+.swiper-pagination {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    transform: translateY(-7rem);
+}
+.swiper-pagination-bullet {
+    width: 50px !important;
+    height: 58px !important;
+    background: url('../images/noactive.png') no-repeat center center/contain;
+    background-size: auto;
+    border-radius: 0;
+}
+.swiper-pagination-bullet-active {
+    width: 66px !important;
+    height: 76px !important;
+    background: url('../images/active.png') no-repeat center center/contain;
+    background-size: auto;
+}
+
+/* section7 */
+
+.section7 {
+    width: 100vw;
+    height: 420vh;
+    background: linear-gradient(#006DAE, #000 10%);
+}
+.section7 .title6 {
+    text-align: center;
+    padding-top: 40rem;
+}
+.footer {
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+.footer .fleft {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -10rem;
+    left: 0;
+    gap: 3rem;
+    padding-left: 3rem;
+}
+.footer .fleft .lbox {
+    width: 40px;
+    height: 25px;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+.footer .fright {
+    display: flex;
+    flex-direction: column;
+    position: absolute;
+    top: -10rem;
+    right: 0;
+    gap: 3rem;
+    padding-right: 3rem;
+}
+.footer .fright .rbox {
+    width: 40px;
+    height: 25px;
+    border-radius: 0.3rem;
+    background-color: #fff;
+}
+.introduce {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 10rem;
+}
+.introduce h1 {
+    color: #006DAE;
+    font-size: 2rem;
+    font-family: 'moon';
+    font-weight: 500;
+    padding-top: 5rem;
+    padding-bottom: 2rem;
+    margin: 0 auto;
+    width: 100%;
+}
+.introduce .ending {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 auto;
+}
+.introduce .ending p {
+    transition: transform 0.5s ease-out;
+    position: relative; /* 자식 가상 요소가 절대 위치를 잡을 수 있도록 */
+    overflow: hidden; /* 가상 요소가 p 태그 밖으로 넘어가지 않게 설정 */
+}
+.introduce .ending p::after {
+    content: ''; /* 가상 요소에 내용을 비워두고 배경색만 설정 */
+    position: absolute; /* 절대 위치로 설정 */
+    top: 0; /* 상단부터 시작 */
+    left: 0; /* 왼쪽부터 시작 */
+    width: 100%; /* 가로 길이를 100%로 설정 */
+    height: 100%; /* 세로 길이를 100%로 설정 */
+    background-color: #006DAE; /* 배경 색 설정 */
+    transform: scaleY(0); /* 처음에는 세로 크기를 0으로 설정 */
+    transform-origin: bottom; /* 변형의 기준을 아래쪽으로 설정 */
+    transition: transform 0.5s ease-out; /* 애니메이션 설정 */
+    z-index: -1; /* 글자 위로 가리지 않게 배경을 뒤로 보냄 */
+}
+.introduce .ending:hover p::after {
+    transform: scaleY(1); /* 호버 시 세로 크기를 1로 설정하여 차오르는 효과 */
+}
+.introduce .ending:hover .sf {
+    color: #fff;
+    z-index: 9;
+}
+.introduce .ending:hover .ff {
+    color: #000;
+    z-index: 9;
+}
+.introduce p {
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 1rem;
+}
+.introduce .sf {
+    color: #6F6F6F;
+    font-size: 2rem;
+    font-family: 'moon';
+    font-weight: bold;
+    text-align: right;
+    padding-right: 2rem;
+}
+.introduce .ff {
+    color: #fff;
+    font-size: 2rem;
+    font-family: 'moon';
+    font-weight: bold;
+    text-align: left;
+    padding-left: 2rem;
+}
+.introduce .myface img {
+    border-radius: 1rem;
+    margin: 0 auto;
+}
+.introduce .myskills {
+    margin: 0 auto;
+}
+.introduce .myskills img {
+    width: 3%;
+    height: 3%;
+    border-radius: 15rem;
+}
+.title6 h2 {
+    color: #fff;
+    font-size: 4rem;
+    font-family: 'moon';
+    font-weight: bold;
+    text-align: center;
+    padding-top: 25rem;
+    margin: 0 auto;
+}
+.title6 > img {
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 15rem;
+    opacity: 0.5;
+}

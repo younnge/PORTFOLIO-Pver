@@ -1,0 +1,2227 @@
+%!Adobe-FontList 1.23
+%Locale:0x412
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Black
+FamilyName:Gothic A1
+StyleName:Black
+FullName:Gothic A1 Black
+MenuName:Gothic A1 Black
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:Black
+FullNameNative:Gothic A1 Black
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2259616
+FileModTime:1732129204
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 Black
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Bold
+FamilyName:Gothic A1
+StyleName:Bold
+FullName:Gothic A1 Bold
+MenuName:Gothic A1
+StyleBits:2
+FamilyNameNative:Gothic A1
+StyleNameNative:Bold
+FullNameNative:Gothic A1 Bold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2285888
+FileModTime:1732129204
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-ExtraBold
+FamilyName:Gothic A1
+StyleName:ExtraBold
+FullName:Gothic A1 ExtraBold
+MenuName:Gothic A1 ExtraBold
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:ExtraBold
+FullNameNative:Gothic A1 ExtraBold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2279996
+FileModTime:1732129204
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 ExtraBold
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-ExtraLight
+FamilyName:Gothic A1
+StyleName:ExtraLight
+FullName:Gothic A1 ExtraLight
+MenuName:Gothic A1 ExtraLight
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:ExtraLight
+FullNameNative:Gothic A1 ExtraLight
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2297240
+FileModTime:1732129204
+WeightClass:275
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 ExtraLight
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Light
+FamilyName:Gothic A1
+StyleName:Light
+FullName:Gothic A1 Light
+MenuName:Gothic A1 Light
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:Light
+FullNameNative:Gothic A1 Light
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2296968
+FileModTime:1732129204
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 Light
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Medium
+FamilyName:Gothic A1
+StyleName:Medium
+FullName:Gothic A1 Medium
+MenuName:Gothic A1 Medium
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:Medium
+FullNameNative:Gothic A1 Medium
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2287684
+FileModTime:1732129204
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 Medium
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Regular
+FamilyName:Gothic A1
+StyleName:Regular
+FullName:Gothic A1 Regular
+MenuName:Gothic A1
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:Regular
+FullNameNative:Gothic A1 Regular
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2294192
+FileModTime:1732129204
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-SemiBold
+FamilyName:Gothic A1
+StyleName:SemiBold
+FullName:Gothic A1 SemiBold
+MenuName:Gothic A1 SemiBold
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:SemiBold
+FullNameNative:Gothic A1 SemiBold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2287416
+FileModTime:1732129204
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 SemiBold
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:GothicA1-Thin
+FamilyName:Gothic A1
+StyleName:Thin
+FullName:Gothic A1 Thin
+MenuName:Gothic A1 Thin
+StyleBits:0
+FamilyNameNative:Gothic A1
+StyleNameNative:Thin
+FullNameNative:Gothic A1 Thin
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\GothicA1-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:2307184
+FileModTime:1732129204
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Gothic A1 Thin
+NameArray:0,Win,16,Gothic A1
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Gothic_A1\OFL.txt
+FileModTime:1734335370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Italic
+FamilyName:Noto Sans
+StyleName:Italic
+FullName:Noto Sans Italic
+MenuName:Noto Sans
+FamilyPrefix:NotoSansItalic
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\NotoSans-Italic-VariableFont_wdth,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:2300468
+FileModTime:1733344266
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Regular
+FamilyName:Noto Sans
+StyleName:Regular
+FullName:Noto Sans Regular
+MenuName:Noto Sans
+FamilyPrefix:NotoSans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\NotoSans-VariableFont_wdth,wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:2044548
+FileModTime:1733344266
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\OFL.txt
+FileModTime:1734335370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\README.txt
+FileModTime:1734335370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Black
+FamilyName:Noto Sans
+StyleName:Black
+FullName:Noto Sans Black
+MenuName:Noto Sans Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629912
+FileModTime:1733344266
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Black
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-BlackItalic
+FamilyName:Noto Sans
+StyleName:Black Italic
+FullName:Noto Sans Black Italic
+MenuName:Noto Sans Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:642820
+FileModTime:1733344266
+WeightClass:900
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Black
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Bold
+FamilyName:Noto Sans
+StyleName:Bold
+FullName:Noto Sans Bold
+MenuName:Noto Sans
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630964
+FileModTime:1733344266
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-BoldItalic
+FamilyName:Noto Sans
+StyleName:Bold Italic
+FullName:Noto Sans Bold Italic
+MenuName:Noto Sans
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644340
+FileModTime:1733344266
+WeightClass:700
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-ExtraBold
+FamilyName:Noto Sans
+StyleName:ExtraBold
+FullName:Noto Sans ExtraBold
+MenuName:Noto Sans ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631288
+FileModTime:1733344266
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraBold
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-ExtraBoldItalic
+FamilyName:Noto Sans
+StyleName:ExtraBold Italic
+FullName:Noto Sans ExtraBold Italic
+MenuName:Noto Sans ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644516
+FileModTime:1733344266
+WeightClass:800
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraBold
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-ExtraLight
+FamilyName:Noto Sans
+StyleName:ExtraLight
+FullName:Noto Sans ExtraLight
+MenuName:Noto Sans ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629780
+FileModTime:1733344266
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraLight
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-ExtraLightItalic
+FamilyName:Noto Sans
+StyleName:ExtraLight Italic
+FullName:Noto Sans ExtraLight Italic
+MenuName:Noto Sans ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644416
+FileModTime:1733344266
+WeightClass:250
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraLight
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Italic
+FamilyName:Noto Sans
+StyleName:Italic
+FullName:Noto Sans Italic
+MenuName:Noto Sans
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:642344
+FileModTime:1733344266
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Light
+FamilyName:Noto Sans
+StyleName:Light
+FullName:Noto Sans Light
+MenuName:Noto Sans Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629564
+FileModTime:1733344266
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Light
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-LightItalic
+FamilyName:Noto Sans
+StyleName:Light Italic
+FullName:Noto Sans Light Italic
+MenuName:Noto Sans Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644244
+FileModTime:1733344266
+WeightClass:300
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Light
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Medium
+FamilyName:Noto Sans
+StyleName:Medium
+FullName:Noto Sans Medium
+MenuName:Noto Sans Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631052
+FileModTime:1733344266
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Medium
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-MediumItalic
+FamilyName:Noto Sans
+StyleName:Medium Italic
+FullName:Noto Sans Medium Italic
+MenuName:Noto Sans Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644256
+FileModTime:1733344266
+WeightClass:500
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Medium
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Regular
+FamilyName:Noto Sans
+StyleName:Regular
+FullName:Noto Sans Regular
+MenuName:Noto Sans
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629024
+FileModTime:1733344266
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-SemiBold
+FamilyName:Noto Sans
+StyleName:SemiBold
+FullName:Noto Sans SemiBold
+MenuName:Noto Sans SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631364
+FileModTime:1733344266
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiBold
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-SemiBoldItalic
+FamilyName:Noto Sans
+StyleName:SemiBold Italic
+FullName:Noto Sans SemiBold Italic
+MenuName:Noto Sans SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644544
+FileModTime:1733344266
+WeightClass:600
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiBold
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-Thin
+FamilyName:Noto Sans
+StyleName:Thin
+FullName:Noto Sans Thin
+MenuName:Noto Sans Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628672
+FileModTime:1733344266
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Thin
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSans-ThinItalic
+FamilyName:Noto Sans
+StyleName:Thin Italic
+FullName:Noto Sans Thin Italic
+MenuName:Noto Sans Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643648
+FileModTime:1733344266
+WeightClass:250
+WidthClass:5
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Thin
+NameArray:0,Win,16,Noto Sans
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Black
+FamilyName:Noto Sans Condensed
+StyleName:Black
+FullName:Noto Sans Condensed Black
+MenuName:Noto Sans Condensed Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629084
+FileModTime:1733344266
+WeightClass:900
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed Black
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-BlackItalic
+FamilyName:Noto Sans Condensed
+StyleName:Black Italic
+FullName:Noto Sans Condensed Black Italic
+MenuName:Noto Sans Condensed Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643588
+FileModTime:1733344266
+WeightClass:900
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed Black
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Bold
+FamilyName:Noto Sans Condensed
+StyleName:Bold
+FullName:Noto Sans Condensed Bold
+MenuName:Noto Sans Condensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630852
+FileModTime:1733344266
+WeightClass:700
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-BoldItalic
+FamilyName:Noto Sans Condensed
+StyleName:Bold Italic
+FullName:Noto Sans Condensed Bold Italic
+MenuName:Noto Sans Condensed
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645596
+FileModTime:1733344266
+WeightClass:700
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-ExtraBold
+FamilyName:Noto Sans Condensed
+StyleName:ExtraBold
+FullName:Noto Sans Condensed ExtraBold
+MenuName:Noto Sans Condensed ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630700
+FileModTime:1733344266
+WeightClass:800
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed ExtraBold
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-ExtraBoldItalic
+FamilyName:Noto Sans Condensed
+StyleName:ExtraBold Italic
+FullName:Noto Sans Condensed ExtraBold Italic
+MenuName:Noto Sans Condensed ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645584
+FileModTime:1733344266
+WeightClass:800
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed ExtraBold
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-ExtraLight
+FamilyName:Noto Sans Condensed
+StyleName:ExtraLight
+FullName:Noto Sans Condensed ExtraLight
+MenuName:Noto Sans Condensed ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629436
+FileModTime:1733344266
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed ExtraLight
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-ExtraLightItalic
+FamilyName:Noto Sans Condensed
+StyleName:ExtraLight Italic
+FullName:Noto Sans Condensed ExtraLight Italic
+MenuName:Noto Sans Condensed ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643560
+FileModTime:1733344266
+WeightClass:250
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed ExtraLight
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Italic
+FamilyName:Noto Sans Condensed
+StyleName:Italic
+FullName:Noto Sans Condensed Italic
+MenuName:Noto Sans Condensed
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643240
+FileModTime:1733344266
+WeightClass:400
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Light
+FamilyName:Noto Sans Condensed
+StyleName:Light
+FullName:Noto Sans Condensed Light
+MenuName:Noto Sans Condensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629444
+FileModTime:1733344266
+WeightClass:300
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed Light
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-LightItalic
+FamilyName:Noto Sans Condensed
+StyleName:Light Italic
+FullName:Noto Sans Condensed Light Italic
+MenuName:Noto Sans Condensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644040
+FileModTime:1733344266
+WeightClass:300
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed Light
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Medium
+FamilyName:Noto Sans Condensed
+StyleName:Medium
+FullName:Noto Sans Condensed Medium
+MenuName:Noto Sans Condensed Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630152
+FileModTime:1733344266
+WeightClass:500
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed Medium
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-MediumItalic
+FamilyName:Noto Sans Condensed
+StyleName:Medium Italic
+FullName:Noto Sans Condensed Medium Italic
+MenuName:Noto Sans Condensed Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645228
+FileModTime:1733344266
+WeightClass:500
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed Medium
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Regular
+FamilyName:Noto Sans Condensed
+StyleName:Regular
+FullName:Noto Sans Condensed Regular
+MenuName:Noto Sans Condensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628576
+FileModTime:1733344266
+WeightClass:400
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-SemiBold
+FamilyName:Noto Sans Condensed
+StyleName:SemiBold
+FullName:Noto Sans Condensed SemiBold
+MenuName:Noto Sans Condensed SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630420
+FileModTime:1733344266
+WeightClass:600
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed SemiBold
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-SemiBoldItalic
+FamilyName:Noto Sans Condensed
+StyleName:SemiBold Italic
+FullName:Noto Sans Condensed SemiBold Italic
+MenuName:Noto Sans Condensed SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645360
+FileModTime:1733344266
+WeightClass:600
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed SemiBold
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-Thin
+FamilyName:Noto Sans Condensed
+StyleName:Thin
+FullName:Noto Sans Condensed Thin
+MenuName:Noto Sans Condensed Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628884
+FileModTime:1733344266
+WeightClass:250
+WidthClass:3
+AngleClass:0
+NameArray:0,Win,1,Noto Sans Condensed Thin
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansCondensed-ThinItalic
+FamilyName:Noto Sans Condensed
+StyleName:Thin Italic
+FullName:Noto Sans Condensed Thin Italic
+MenuName:Noto Sans Condensed Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_Condensed-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:642916
+FileModTime:1733344266
+WeightClass:250
+WidthClass:3
+AngleClass:1
+NameArray:0,Win,1,Noto Sans Condensed Thin
+NameArray:0,Win,16,Noto Sans Condensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Black
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Black
+FullName:Noto Sans ExtraCondensed Black
+MenuName:Noto Sans ExtraCondensed Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:627536
+FileModTime:1733344266
+WeightClass:900
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed Black
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-BlackItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Black Italic
+FullName:Noto Sans ExtraCondensed Black Italic
+MenuName:Noto Sans ExtraCondensed Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:642144
+FileModTime:1733344266
+WeightClass:900
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed Black
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Bold
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Bold
+FullName:Noto Sans ExtraCondensed Bold
+MenuName:Noto Sans ExtraCondensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629716
+FileModTime:1733344266
+WeightClass:700
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-BoldItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Bold Italic
+FullName:Noto Sans ExtraCondensed Bold Italic
+MenuName:Noto Sans ExtraCondensed
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644564
+FileModTime:1733344266
+WeightClass:700
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-ExtraBold
+FamilyName:Noto Sans ExtraCondensed
+StyleName:ExtraBold
+FullName:Noto Sans ExtraCondensed ExtraBold
+MenuName:Noto Sans ExtraCondensed ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629524
+FileModTime:1733344266
+WeightClass:800
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed ExtraBold
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-ExtraBoldItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:ExtraBold Italic
+FullName:Noto Sans ExtraCondensed ExtraBold Italic
+MenuName:Noto Sans ExtraCondensed ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644408
+FileModTime:1733344266
+WeightClass:800
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed ExtraBold
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-ExtraLight
+FamilyName:Noto Sans ExtraCondensed
+StyleName:ExtraLight
+FullName:Noto Sans ExtraCondensed ExtraLight
+MenuName:Noto Sans ExtraCondensed ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628228
+FileModTime:1733344266
+WeightClass:250
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed ExtraLight
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-ExtraLightItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:ExtraLight Italic
+FullName:Noto Sans ExtraCondensed ExtraLight Italic
+MenuName:Noto Sans ExtraCondensed ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:641996
+FileModTime:1733344266
+WeightClass:250
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed ExtraLight
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Italic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Italic
+FullName:Noto Sans ExtraCondensed Italic
+MenuName:Noto Sans ExtraCondensed
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:641748
+FileModTime:1733344266
+WeightClass:400
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Light
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Light
+FullName:Noto Sans ExtraCondensed Light
+MenuName:Noto Sans ExtraCondensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628224
+FileModTime:1733344266
+WeightClass:300
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed Light
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-LightItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Light Italic
+FullName:Noto Sans ExtraCondensed Light Italic
+MenuName:Noto Sans ExtraCondensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:641960
+FileModTime:1733344266
+WeightClass:300
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed Light
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Medium
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Medium
+FullName:Noto Sans ExtraCondensed Medium
+MenuName:Noto Sans ExtraCondensed Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:628764
+FileModTime:1733344266
+WeightClass:500
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed Medium
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-MediumItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Medium Italic
+FullName:Noto Sans ExtraCondensed Medium Italic
+MenuName:Noto Sans ExtraCondensed Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643988
+FileModTime:1733344266
+WeightClass:500
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed Medium
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Regular
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Regular
+FullName:Noto Sans ExtraCondensed Regular
+MenuName:Noto Sans ExtraCondensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:627232
+FileModTime:1733344266
+WeightClass:400
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-SemiBold
+FamilyName:Noto Sans ExtraCondensed
+StyleName:SemiBold
+FullName:Noto Sans ExtraCondensed SemiBold
+MenuName:Noto Sans ExtraCondensed SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629076
+FileModTime:1733344266
+WeightClass:600
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed SemiBold
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-SemiBoldItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:SemiBold Italic
+FullName:Noto Sans ExtraCondensed SemiBold Italic
+MenuName:Noto Sans ExtraCondensed SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644528
+FileModTime:1733344266
+WeightClass:600
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed SemiBold
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-Thin
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Thin
+FullName:Noto Sans ExtraCondensed Thin
+MenuName:Noto Sans ExtraCondensed Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:627080
+FileModTime:1733344266
+WeightClass:250
+WidthClass:2
+AngleClass:0
+NameArray:0,Win,1,Noto Sans ExtraCondensed Thin
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansExtraCondensed-ThinItalic
+FamilyName:Noto Sans ExtraCondensed
+StyleName:Thin Italic
+FullName:Noto Sans ExtraCondensed Thin Italic
+MenuName:Noto Sans ExtraCondensed Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_ExtraCondensed-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:640568
+FileModTime:1733344266
+WeightClass:250
+WidthClass:2
+AngleClass:1
+NameArray:0,Win,1,Noto Sans ExtraCondensed Thin
+NameArray:0,Win,16,Noto Sans ExtraCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Black
+FamilyName:Noto Sans SemiCondensed
+StyleName:Black
+FullName:Noto Sans SemiCondensed Black
+MenuName:Noto Sans SemiCondensed Black
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629800
+FileModTime:1733344266
+WeightClass:900
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed Black
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-BlackItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Black Italic
+FullName:Noto Sans SemiCondensed Black Italic
+MenuName:Noto Sans SemiCondensed Black
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-BlackItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644280
+FileModTime:1733344266
+WeightClass:900
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed Black
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Bold
+FamilyName:Noto Sans SemiCondensed
+StyleName:Bold
+FullName:Noto Sans SemiCondensed Bold
+MenuName:Noto Sans SemiCondensed
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631552
+FileModTime:1733344266
+WeightClass:700
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-BoldItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Bold Italic
+FullName:Noto Sans SemiCondensed Bold Italic
+MenuName:Noto Sans SemiCondensed
+StyleBits:3
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-BoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645764
+FileModTime:1733344266
+WeightClass:700
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-ExtraBold
+FamilyName:Noto Sans SemiCondensed
+StyleName:ExtraBold
+FullName:Noto Sans SemiCondensed ExtraBold
+MenuName:Noto Sans SemiCondensed ExtraBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631312
+FileModTime:1733344266
+WeightClass:800
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed ExtraBold
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-ExtraBoldItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:ExtraBold Italic
+FullName:Noto Sans SemiCondensed ExtraBold Italic
+MenuName:Noto Sans SemiCondensed ExtraBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-ExtraBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645636
+FileModTime:1733344266
+WeightClass:800
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed ExtraBold
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-ExtraLight
+FamilyName:Noto Sans SemiCondensed
+StyleName:ExtraLight
+FullName:Noto Sans SemiCondensed ExtraLight
+MenuName:Noto Sans SemiCondensed ExtraLight
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630248
+FileModTime:1733344266
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed ExtraLight
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-ExtraLightItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:ExtraLight Italic
+FullName:Noto Sans SemiCondensed ExtraLight Italic
+MenuName:Noto Sans SemiCondensed ExtraLight
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-ExtraLightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644328
+FileModTime:1733344266
+WeightClass:250
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed ExtraLight
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Italic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Italic
+FullName:Noto Sans SemiCondensed Italic
+MenuName:Noto Sans SemiCondensed
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Italic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643564
+FileModTime:1733344266
+WeightClass:400
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Light
+FamilyName:Noto Sans SemiCondensed
+StyleName:Light
+FullName:Noto Sans SemiCondensed Light
+MenuName:Noto Sans SemiCondensed Light
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629916
+FileModTime:1733344266
+WeightClass:300
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed Light
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-LightItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Light Italic
+FullName:Noto Sans SemiCondensed Light Italic
+MenuName:Noto Sans SemiCondensed Light
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-LightItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:644480
+FileModTime:1733344266
+WeightClass:300
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed Light
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Medium
+FamilyName:Noto Sans SemiCondensed
+StyleName:Medium
+FullName:Noto Sans SemiCondensed Medium
+MenuName:Noto Sans SemiCondensed Medium
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:630684
+FileModTime:1733344266
+WeightClass:500
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed Medium
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-MediumItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Medium Italic
+FullName:Noto Sans SemiCondensed Medium Italic
+MenuName:Noto Sans SemiCondensed Medium
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-MediumItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645212
+FileModTime:1733344266
+WeightClass:500
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed Medium
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Regular
+FamilyName:Noto Sans SemiCondensed
+StyleName:Regular
+FullName:Noto Sans SemiCondensed Regular
+MenuName:Noto Sans SemiCondensed
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629028
+FileModTime:1733344266
+WeightClass:400
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-SemiBold
+FamilyName:Noto Sans SemiCondensed
+StyleName:SemiBold
+FullName:Noto Sans SemiCondensed SemiBold
+MenuName:Noto Sans SemiCondensed SemiBold
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:631084
+FileModTime:1733344266
+WeightClass:600
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed SemiBold
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-SemiBoldItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:SemiBold Italic
+FullName:Noto Sans SemiCondensed SemiBold Italic
+MenuName:Noto Sans SemiCondensed SemiBold
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-SemiBoldItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:645884
+FileModTime:1733344266
+WeightClass:600
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed SemiBold
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-Thin
+FamilyName:Noto Sans SemiCondensed
+StyleName:Thin
+FullName:Noto Sans SemiCondensed Thin
+MenuName:Noto Sans SemiCondensed Thin
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:629812
+FileModTime:1733344266
+WeightClass:250
+WidthClass:4
+AngleClass:0
+NameArray:0,Win,1,Noto Sans SemiCondensed Thin
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansSemiCondensed-ThinItalic
+FamilyName:Noto Sans SemiCondensed
+StyleName:Thin Italic
+FullName:Noto Sans SemiCondensed Thin Italic
+MenuName:Noto Sans SemiCondensed Thin
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans\static\NotoSans_SemiCondensed-ThinItalic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:643972
+FileModTime:1733344266
+WeightClass:250
+WidthClass:4
+AngleClass:1
+NameArray:0,Win,1,Noto Sans SemiCondensed Thin
+NameArray:0,Win,16,Noto Sans SemiCondensed
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Thin
+FamilyName:Noto Sans KR
+StyleName:Thin
+FullName:Noto Sans KR Thin
+MenuName:Noto Sans KR Thin
+FamilyPrefix:NotoSansKR
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Thin
+FullNameNative:Noto Sans KR Thin
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\NotoSansKR-VariableFont_wght.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:TrueTypeVariableFont
+FileLength:10361060
+FileModTime:1692316384
+WeightClass:100
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Thin
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\OFL.txt
+FileModTime:1734335370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Invalid
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\README.txt
+FileModTime:1734335370
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Black
+FamilyName:Noto Sans KR
+StyleName:Black
+FullName:Noto Sans KR Black
+MenuName:Noto Sans KR Black
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Black
+FullNameNative:Noto Sans KR Black
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Black.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6188800
+FileModTime:1692316384
+WeightClass:900
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Black
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Bold
+FamilyName:Noto Sans KR
+StyleName:Bold
+FullName:Noto Sans KR Bold
+MenuName:Noto Sans KR
+StyleBits:2
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Bold
+FullNameNative:Noto Sans KR Bold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Bold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6190824
+FileModTime:1692316384
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-ExtraBold
+FamilyName:Noto Sans KR
+StyleName:ExtraBold
+FullName:Noto Sans KR ExtraBold
+MenuName:Noto Sans KR ExtraBold
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:ExtraBold
+FullNameNative:Noto Sans KR ExtraBold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-ExtraBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6189864
+FileModTime:1692316384
+WeightClass:800
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR ExtraBold
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-ExtraLight
+FamilyName:Noto Sans KR
+StyleName:ExtraLight
+FullName:Noto Sans KR ExtraLight
+MenuName:Noto Sans KR ExtraLight
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:ExtraLight
+FullNameNative:Noto Sans KR ExtraLight
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-ExtraLight.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6201060
+FileModTime:1692316384
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR ExtraLight
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Light
+FamilyName:Noto Sans KR
+StyleName:Light
+FullName:Noto Sans KR Light
+MenuName:Noto Sans KR Light
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Light
+FullNameNative:Noto Sans KR Light
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Light.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6198972
+FileModTime:1692316384
+WeightClass:300
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Light
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Medium
+FamilyName:Noto Sans KR
+StyleName:Medium
+FullName:Noto Sans KR Medium
+MenuName:Noto Sans KR Medium
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Medium
+FullNameNative:Noto Sans KR Medium
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Medium.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6190280
+FileModTime:1692316384
+WeightClass:500
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Medium
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Regular
+FamilyName:Noto Sans KR
+StyleName:Regular
+FullName:Noto Sans KR Regular
+MenuName:Noto Sans KR
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Regular
+FullNameNative:Noto Sans KR Regular
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Regular.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6192764
+FileModTime:1692316384
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-SemiBold
+FamilyName:Noto Sans KR
+StyleName:SemiBold
+FullName:Noto Sans KR SemiBold
+MenuName:Noto Sans KR SemiBold
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:SemiBold
+FullNameNative:Noto Sans KR SemiBold
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-SemiBold.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6188924
+FileModTime:1692316384
+WeightClass:600
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR SemiBold
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:NotoSansKR-Thin
+FamilyName:Noto Sans KR
+StyleName:Thin
+FullName:Noto Sans KR Thin
+MenuName:Noto Sans KR Thin
+StyleBits:0
+FamilyNameNative:Noto Sans KR
+StyleNameNative:Thin
+FullNameNative:Noto Sans KR Thin
+WritingScript:Korean
+OutlineFileName:C:\Users\Administrator\Desktop\이케아 풀페이지\Font\Noto_Sans_KR\static\NotoSansKR-Thin.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:6201276
+FileModTime:1692316384
+WeightClass:250
+WidthClass:5
+AngleClass:0
+NameArray:0,Win,1,Noto Sans KR Thin
+NameArray:0,Win,16,Noto Sans KR
+%EndFont
+
